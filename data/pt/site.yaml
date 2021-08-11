@@ -17,8 +17,8 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: John's Blog
+  title: Gustavo Mourão
   type: website
-  description: Portfolio and personal blog of John Doe.
-  image: images/author/john.png
-  url: https://hugo-toha.github.io
+  description: Portifólio e blog de Gustavo Mourão.
+  image: images/author/gustavo.jpg
+  url: https://mourao.netlify.app/

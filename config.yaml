@@ -1,6 +1,6 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://mourao.netlify.app/
 
-languageCode: en-us
+languageCode: pt-br
 title: "Gustavo Mourão"
 theme: "toha"
 
