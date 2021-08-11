@@ -1,14 +1,14 @@
 baseURL: https://mourao.netlify.app/
 
-languageCode: pt-br
+languageCode: en-us
 title: "Gustavo Mourão"
 theme: "toha"
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  pt:
-    languageName: Português
+  en:
+    languageName: English
     weight: 1
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
