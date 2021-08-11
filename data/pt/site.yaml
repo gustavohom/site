@@ -7,7 +7,7 @@ You can modify or distribute the theme without requiring any permission from the
 However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Portfolio and personal blog of John Doe.
+description: Portifólio e blog pessoal de Gustavo Mourão.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -19,6 +19,6 @@ customMenus:
 openGraph:
   title: Gustavo Mourão
   type: website
-  description: Portifólio e blog de Gustavo Mourão.
+  description: Portifólio e blog pessoal de Gustavo Mourão.
   image: images/author/gustavo.jpg
   url: https://mourao.netlify.app/
