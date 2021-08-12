@@ -16,7 +16,8 @@ company:
 
 # your resume. this file path should be relative to you "static" directory
 
-resume: "files/curriculum.pdf"
+# resume: "files/curriculum.pdf"
+resume: "files/resume.pdf"
 
 # a summary about you
 summary: 'Sou um engenheiro florestal apaixonado, com mestrado em ciência florestal.
