@@ -2,7 +2,7 @@
 name: "Gustavo Mourão"
 nickname: "Gustavo"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "OI, Eu sou"
+greeting: "Oi, Eu sou"
 image: "images/author/gustavo.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
