@@ -2,8 +2,8 @@
 copyright: © 2021 Copyright.
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
-disclaimer: "Esse site é inteiramente pessoal. Feito apenas para consulta pessoal 
-e como portifólio. O autor não se responsabiliza sobre as informações contidas no site,
+disclaimer: "Esse site é inteiramente pessoal. Feito apenas para consulta pessoal
+em formato de blog e portifólio. O autor não se responsabiliza sobre as informações contidas no site,
 indicando-o apenas para consulta, não para citações."
 
 # Meta description for your site.  This will help the search engines to find your site.
@@ -18,6 +18,7 @@ customMenus:
   customMenus:
 - name: Pacotes
   url: https://github.com/gustavohom/infomacoes/blob/main/packages.md
+  
 
 # Specify OpenGraph Headers
 openGraph:
