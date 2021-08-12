@@ -16,7 +16,7 @@ company:
 
 # your resume. this file path should be relative to you "static" directory
 
-curriculo: "files/curriculo.pdf"
+resume: "files/curriculum.pdf"
 
 # a summary about you
 summary: 'Sou um engenheiro florestal apaixonado, com mestrado em ciência florestal.
@@ -28,11 +28,11 @@ devido minhas pesquisas e trabalhos voluntários.'
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "gustavo.mourao@ufvjm.edu.br"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/gustavohom"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
