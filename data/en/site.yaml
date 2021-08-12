@@ -12,7 +12,7 @@ description: Portifólio e blog pessoal de Gustavo Mourão.
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
-- name: Meus arquivos
+- name: Ebooks
   url: github.com/
 
 # Specify OpenGraph Headers
