@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: Sobre
   id: about
   enable: true
   weight: 1
@@ -8,17 +8,20 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Engenheiro Floresta
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Gustavo Mourão
+  url: "https://mourao.netlify.app/"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+
+curriculo: "files/curriculo.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'Sou um engenheiro florestal apaixonado, com mestrado em ciência florestal.
+Em minha jornada profissional e academica, fiz diversas contribuições para a sociedade
+devido minhas pesquisas e trabalhos voluntários.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
