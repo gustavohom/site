@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Engenheiro Floresta
+designation: Engenheiro Florestal
 # your company information
 company:
   name: Gustavo Mourão
@@ -21,7 +21,7 @@ resume: "files/resume.pdf"
 
 # a summary about you
 summary: 'Sou um engenheiro florestal apaixonado, com mestrado em ciência florestal.
-Em minha jornada profissional e academica, fiz diversas contribuições para a sociedade
+Em minha jornada profissional e academica, fiz diversas contribuições pfara a sociedade
 devido minhas pesquisas e trabalhos voluntários.'
 
 # your social links
