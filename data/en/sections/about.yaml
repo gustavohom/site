@@ -50,34 +50,34 @@ socialLinks:
 - name: Facebook
   icon: "fab fa-facebook"
   url: "#"
-  
-  - name: Facebook1
-  icon: "fab fa-facebook"
-  url: "#"
-  
-  - name: Facebook2
-  icon: "fab fa-facebook"
-  url: "#"
-  
-  - name: Facebook3
-  icon: "fab fa-facebook"
-  url: "#"
-  
-  - name: Facebook4
-  icon: "fab fa-facebook"
-  url: "#"
-  
-  - name: Facebook6
-  icon: "fab fa-facebook"
-  url: "#"
-  
-  - name: Facebook5
-  icon: "fab fa-facebook"
-  url: "#"
-  
-  - name: Facebook7
-  icon: "fab fa-facebook"
-  url: "#"
+  # 
+  # - name: Facebook1
+  # icon: "fab fa-facebook"
+  # url: "#"
+  # 
+  # - name: Facebook2
+  # icon: "fab fa-facebook"
+  # url: "#"
+  # 
+  # - name: Facebook3
+  # icon: "fab fa-facebook"
+  # url: "#"
+  # 
+  # - name: Facebook4
+  # icon: "fab fa-facebook"
+  # url: "#"
+  # 
+  # - name: Facebook6
+  # icon: "fab fa-facebook"
+  # url: "#"
+  # 
+  # - name: Facebook5
+  # icon: "fab fa-facebook"
+  # url: "#"
+  # 
+  # - name: Facebook7
+  # icon: "fab fa-facebook"
+  # url: "#"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
