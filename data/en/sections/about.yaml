@@ -33,20 +33,48 @@ socialLinks:
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/gustavohom"
+  
+  - name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/gustavomourao1/"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
-  url: "#"
-
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://stackoverflow.com/users/11311874/gustavo-mourao"
 
 - name: Twitter
   icon: "fab fa-twitter"
   url: "#"
 
 - name: Facebook
+  icon: "fab fa-facebook"
+  url: "#"
+  
+  - name: Facebook1
+  icon: "fab fa-facebook"
+  url: "#"
+  
+  - name: Facebook2
+  icon: "fab fa-facebook"
+  url: "#"
+  
+  - name: Facebook3
+  icon: "fab fa-facebook"
+  url: "#"
+  
+  - name: Facebook4
+  icon: "fab fa-facebook"
+  url: "#"
+  
+  - name: Facebook6
+  icon: "fab fa-facebook"
+  url: "#"
+  
+  - name: Facebook5
+  icon: "fab fa-facebook"
+  url: "#"
+  
+  - name: Facebook7
   icon: "fab fa-facebook"
   url: "#"
 
