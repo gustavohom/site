@@ -68,10 +68,12 @@ socialLinks:
 - name: ORCID
   icon: "fab fa-orcid"
   url: "https://orcid.org/0000-0002-2839-3622"
+  
+"lista completa"
 
-- name: Google Scholar
-  icon: "http://i.imgur.com/2iVxee6.png""
-  url: "#"
+# - name: Google Scholar
+#   icon: "http://i.imgur.com/2iVxee6.png""
+#   url: "#"
   # 
   # - name: Udemy
   # icon: "fab fa-facebook"
