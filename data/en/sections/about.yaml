@@ -37,7 +37,7 @@ socialLinks:
   url: "https://www.linkedin.com/in/gustavomourao1/"
   
 - name: Lattes
-  icon: "fab fa-portrait"
+  icon: "fas fa-portrait"
   url: "http://lattes.cnpq.br/0522912571834427"
 
 - name: Research Gate
@@ -45,7 +45,7 @@ socialLinks:
   url: "https://www.researchgate.net/profile/Gustavo-Mourao"
 
 - name: Google Scholar
-  icon: "fab fab-graduation-cap"
+  icon: "fas fab-graduation-cap"
   url: "https://scholar.google.com.br/citations?hl=pt-BR&user=0QE1zawAAAAJ"
 
 - name: Github
