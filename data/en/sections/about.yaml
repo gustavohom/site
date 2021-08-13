@@ -27,14 +27,14 @@ devido minhas pesquisas e trabalhos voluntários.'
 
 # your social links s
 # give as many as you want. use font-awesome for the icons.
-# socialLinks:
-# - name: Email
-#   icon: "fas fa-envelope"
-#   url: "gustavo.mourao@ufvjm.edu.br
-#   
-# - name: LinkedIn
-#   icon: "fab fa-linkedin"
-#   url: "https://www.linkedin.com/in/gustavomourao1/"
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "gustavo.mourao@ufvjm.edu.br
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/gustavomourao1/"
 # 
 # - name: Research Gate
 #   icon: "fab fa-researchgate"
@@ -107,7 +107,7 @@ badges:
   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
 - type: soft-skill-indicator
-  name: Geoprocessamento
+  name: SIG
   percentage: 90
   color: blue
 
