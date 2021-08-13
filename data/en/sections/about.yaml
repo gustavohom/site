@@ -84,7 +84,7 @@ socialLinks:
   # url: "#"
 
 - name: WhatsApp
-  icon: "fab fa-whatsapp-square"
+  icon: "fab fa-whatsapp"
   url: "https://api.whatsapp.com/send?phone=5538988217313&text=Bom%20dia.%20Usei%20o%20link%20do%20seu%20site%20para%20entrar%20em%20contato%20com%20voc%C3%AA"
 
 # Show your badges
