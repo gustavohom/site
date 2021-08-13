@@ -32,9 +32,9 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "gustavo.mourao@ufvjm.edu.br
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/gustavomourao1/"
+# - name: LinkedIn
+#   icon: "fab fa-linkedin"
+#   url: "https://www.linkedin.com/in/gustavomourao1/"
 # 
 # - name: Research Gate
 #   icon: "fab fa-researchgate"
