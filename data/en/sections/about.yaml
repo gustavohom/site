@@ -106,12 +106,12 @@ badges:
 
 - type: soft-skill-indicator
   name: SIG
-  percentage: 90
+  percentage: 75
   color: blue
 
 - type: soft-skill-indicator
   name: Linguagem R
-  percentage: 85
+  percentage: 75
   color: yellow
 
 - type: soft-skill-indicator
