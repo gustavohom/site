@@ -19,6 +19,9 @@ customMenus:
 - name: Pacotes
   url: https://github.com/gustavohom/infomacoes/blob/main/packages.md
   
+  customMenus:
+- name: Curriculum
+  url: https://mourao.netlify.app/files/curriculum.pdf
 
 # Specify OpenGraph Headers
 openGraph:
