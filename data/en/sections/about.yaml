@@ -51,10 +51,10 @@ socialLinks:
 - name: Facebook
   icon: "fab fa-facebook"
   url: "#"
-  # 
-  # - name: Facebook1
-  # icon: "fab fa-facebook"
-  # url: "#"
+
+- name: Facebook1
+  icon: "fab fa-facebook"
+  url: "#"
   # 
   # - name: Facebook2
   # icon: "fab fa-facebook"
