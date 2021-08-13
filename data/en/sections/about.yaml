@@ -18,7 +18,7 @@ company:
 # your resume. this file path should be relative to you "static" directory
 
 # resume: "files/curriculum.pdf"
-resume: "files/resume.pdf"
+resume: "files/curriculum.pdf"
 
 # a summary about you
 summary: 'Sou um engenheiro florestal apaixonado, com mestrado em ciência florestal.
@@ -30,7 +30,19 @@ devido minhas pesquisas e trabalhos voluntários.'
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "gustavo.mourao@ufvjm.edu.br"
+  url: "gustavo.mourao@ufvjm.edu.br
+  
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/gustavomourao1/"
+
+- name: Research Gate
+  icon: "fab fa-researchgate"
+  url: "https://www.researchgate.net/profile/Gustavo-Mourao"
+  
+- name: Facebook1
+  icon: "fab fa-facebook"
+  url: "#"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
@@ -40,10 +52,6 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://www.github.com/gustavohom"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/gustavomourao1/"
-
 - name: Twitter
   icon: "fab fa-twitter"
   url: "#"
@@ -52,31 +60,36 @@ socialLinks:
   icon: "fab fa-facebook"
   url: "#"
 
-- name: Facebook1
-  icon: "fab fa-facebook"
+  # 
+  # - name: Publons
+  # icon: "fab fa-facebook"
+  # url: "#"
+  # 
+- name: ORCID
+  icon: "fab fa-orcid"
+  url: "https://orcid.org/0000-0002-2839-3622"
+
+- name: Google Scholar
+  icon: "http://i.imgur.com/2iVxee6.png""
   url: "#"
   # 
-  # - name: Facebook2
+  # - name: Udemy
   # icon: "fab fa-facebook"
   # url: "#"
   # 
-  # - name: Facebook3
+  # - name: Instagran
   # icon: "fab fa-facebook"
   # url: "#"
   # 
-  # - name: Facebook4
-  # icon: "fab fa-facebook"
+  # - name: YouTube
+  ## icon: "fab fa-facebook"
   # url: "#"
-  # 
-  # - name: Facebook6
-  # icon: "fab fa-facebook"
+  
+  # - name: Certificados
+  ## icon: "fab fa-facebook"
   # url: "#"
-  # 
-  # - name: Facebook5
-  # icon: "fab fa-facebook"
-  # url: "#"
-  # 
-  # - name: Facebook7
+  
+  # - name: WhatsApp
   ## icon: "fab fa-facebook"
   # url: "#"
 
