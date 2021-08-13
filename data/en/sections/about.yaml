@@ -32,79 +32,79 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "gustavo.mourao@ufvjm.edu.br
   
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/gustavomourao1/"
-
-- name: Research Gate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/Gustavo-Mourao"
-  
-# - name: Google Scholar
-#   icon: "http://i.imgur.com/2iVxee6.png""
-#   url: "#"
-  
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/gustavohom"
-  
-  # 
-  # - name: Publons
-  # icon: "fab fa-facebook"
-  # url: "#"
-  # 
-- name: ORCID
-  icon: "fab fa-orcid"
-  url: "https://orcid.org/0000-0002-2839-3622"
-  
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "https://stackoverflow.com/users/11311874/gustavo-mourao"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "https://facebook.com/gustavomourao1"
-
-- name: Instagran
-  icon: "fab fa-instagram-square"
-  url: "https://www.instagram.com/gustavofloresteiro/"
-
-- name: YouTube
-  icon: "fab fa-youtube"
-  url: "https://www.youtube.com/channel/UC-PCLVs1nmbOnfJJEvey8hg"
-  
-    # 
-  # - name: Udemy
-  # icon: "fab fa-facebook"
-  # url: "#"
-  # 
-  
-  # - name: Certificados
-  ## icon: "fab fa-facebook"
-  # url: "#"
-  
-- name: WhatsApp
-  icon: "fab fa-whatsapp-square"
-  url: "https://api.whatsapp.com/send?phone=5538988217313&text=Bom%20dia.%20Usei%20o%20link%20do%20seu%20site%20para%20entrar%20em%20contato%20com%20voc%C3%AA"
-
-# Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
-badges:
-- type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
-
-- type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
-
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+# - name: LinkedIn
+#   icon: "fab fa-linkedin"
+#   url: "https://www.linkedin.com/in/gustavomourao1/"
+# 
+# - name: Research Gate
+#   icon: "fab fa-researchgate"
+#   url: "https://www.researchgate.net/profile/Gustavo-Mourao"
+#   
+# # - name: Google Scholar
+# #   icon: "http://i.imgur.com/2iVxee6.png""
+# #   url: "#"
+#   
+# - name: Github
+#   icon: "fab fa-github"
+#   url: "https://www.github.com/gustavohom"
+#   
+#   # 
+#   # - name: Publons
+#   # icon: "fab fa-facebook"
+#   # url: "#"
+#   # 
+# - name: ORCID
+#   icon: "fab fa-orcid"
+#   url: "https://orcid.org/0000-0002-2839-3622"
+#   
+# - name: Stackoverflow
+#   icon: "fab fa-stack-overflow"
+#   url: "https://stackoverflow.com/users/11311874/gustavo-mourao"
+# 
+# - name: Facebook
+#   icon: "fab fa-facebook"
+#   url: "https://facebook.com/gustavomourao1"
+# 
+# - name: Instagran
+#   icon: "fab fa-instagram-square"
+#   url: "https://www.instagram.com/gustavofloresteiro/"
+# 
+# - name: YouTube
+#   icon: "fab fa-youtube"
+#   url: "https://www.youtube.com/channel/UC-PCLVs1nmbOnfJJEvey8hg"
+#   
+#     # 
+#   # - name: Udemy
+#   # icon: "fab fa-facebook"
+#   # url: "#"
+#   # 
+#   
+#   # - name: Certificados
+#   ## icon: "fab fa-facebook"
+#   # url: "#"
+#   
+# - name: WhatsApp
+#   icon: "fab fa-whatsapp-square"
+#   url: "https://api.whatsapp.com/send?phone=5538988217313&text=Bom%20dia.%20Usei%20o%20link%20do%20seu%20site%20para%20entrar%20em%20contato%20com%20voc%C3%AA"
+# 
+# # Show your badges
+# # You can show your verifiable certificates from https://www.credly.com.
+# # You can also show a circular bar indicating the level of expertise on a certain skill
+# badges:
+# - type: certification
+#   name: Certified Kubernetes Security Specialist
+#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+# 
+# - type: certification
+#   name: Istio and IBM Cloud Kubernetes Service
+#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+# 
+# - type: certification
+#   name: Artificial Intelligence and Machine Learning
+#   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
+#   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
 - type: soft-skill-indicator
   name: Geoprocessamento
@@ -117,7 +117,7 @@ badges:
   color: yellow
 
 - type: soft-skill-indicator
-  name: HInovações
+  name: Inovações
   percentage: 95
   color: orange
 
