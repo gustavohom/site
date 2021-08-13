@@ -35,21 +35,25 @@ socialLinks:
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/gustavomourao1/"
+  
+- name: Lattes
+  icon: "fab fa-portrait"
+  url: "http://lattes.cnpq.br/0522912571834427"
 
 - name: Research Gate
   icon: "fab fa-researchgate"
   url: "https://www.researchgate.net/profile/Gustavo-Mourao"
 
 - name: Google Scholar
-  icon: "http://i.imgur.com/2iVxee6.png"
-  url: "#"
+  icon: "fab fab-graduation-cap"
+  url: "https://scholar.google.com.br/citations?hl=pt-BR&user=0QE1zawAAAAJ"
 
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/gustavohom"
 
 - name: Publons
-  icon: "fab fa-parking"
+  icon: "fas fa-parking"
   url: "https://publons.com/researcher/1878230/gustavo-h-o-mourao/"
 
 - name: ORCID
@@ -65,13 +69,12 @@ socialLinks:
   url: "https://facebook.com/gustavomourao1"
 
 - name: Instagran
-  icon: "fab fa-instagram-square"
+  icon: "fab fa-instagram"
   url: "https://www.instagram.com/gustavofloresteiro/"
 
 - name: YouTube
   icon: "fab fa-youtube"
   url: "https://www.youtube.com/channel/UC-PCLVs1nmbOnfJJEvey8hg"
-
 
   # - name: Certificados
   ## icon: "fab fa-facebook"
