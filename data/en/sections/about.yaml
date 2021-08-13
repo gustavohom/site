@@ -91,18 +91,18 @@ socialLinks:
 badges:
 - type: certification
   name: Engenharia Florestal
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+  url: "http://www.ufvjm.edu.br/cursos/engenharia-florestal.html"
   badge: "/img/engflo.png"
 
 - type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+  name: Universidade Federal dos Vales do Jequitinhonha e Mucuri
+  url: "http://portal.ufvjm.edu.br/"
   badge: "/img/ufvjm.png"
 
 - type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  name: Mourão Company
+  url: "/files/sevicos.pdf"
+  badge: "/img/gm.png"
 
 - type: soft-skill-indicator
   name: SIG
