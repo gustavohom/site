@@ -92,12 +92,12 @@ badges:
 - type: certification
   name: Engenharia Florestal
   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://mourao.netlify.app/images/sections/about/engflo.png"
+  badge: "https://github.com/gustavohom/site/tree/source/assets/images/sections/about/engflo.png"
 
 - type: certification
   name: Istio and IBM Cloud Kubernetes Service
   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://mourao.netlify.app/images/sections/about/ufvjm.png"
+  badge: "https://github.com/gustavohom/site/tree/source/assets/images/sections/about/ufvjm.png"
 
 - type: certification
   name: Artificial Intelligence and Machine Learning
