@@ -27,11 +27,11 @@ devido minhas pesquisas e trabalhos voluntários.'
 
 # your social links s
 # give as many as you want. use font-awesome for the icons.
-socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "gustavo.mourao@ufvjm.edu.br
-  
+# socialLinks:
+# - name: Email
+#   icon: "fas fa-envelope"
+#   url: "gustavo.mourao@ufvjm.edu.br
+#   
 # - name: LinkedIn
 #   icon: "fab fa-linkedin"
 #   url: "https://www.linkedin.com/in/gustavomourao1/"
@@ -106,20 +106,20 @@ socialLinks:
 #   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
 #   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
-- type: soft-skill-indicator
-  name: Geoprocessamento
-  percentage: 90
-  color: blue
-
-- type: soft-skill-indicator
-  name: Linguagem R
-  percentage: 85
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Inovações
-  percentage: 95
-  color: orange
+# - type: soft-skill-indicator
+#   name: Geoprocessamento
+#   percentage: 90
+#   color: blue
+# 
+# - type: soft-skill-indicator
+#   name: Linguagem R
+#   percentage: 85
+#   color: yellow
+# 
+# - type: soft-skill-indicator
+#   name: Inovações
+#   percentage: 95
+#   color: orange
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
