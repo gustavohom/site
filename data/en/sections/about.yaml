@@ -30,19 +30,19 @@ devido minhas pesquisas e trabalhos voluntários.'
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
-
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "gustavo.mourao@ufvjm.edu.br"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://stackoverflow.com/users/11311874/gustavo-mourao"
+  
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/gustavohom"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/gustavomourao1/"
 
 - name: Twitter
   icon: "fab fa-twitter"
