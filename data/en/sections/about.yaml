@@ -7,6 +7,7 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
+
 # your designation
 designation: Engenheiro Florestal
 # your company information
