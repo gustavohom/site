@@ -40,26 +40,14 @@ socialLinks:
   icon: "fab fa-researchgate"
   url: "https://www.researchgate.net/profile/Gustavo-Mourao"
   
-- name: Facebook1
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "https://stackoverflow.com/users/11311874/gustavo-mourao"
+# - name: Google Scholar
+#   icon: "http://i.imgur.com/2iVxee6.png""
+#   url: "#"
   
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/gustavohom"
-
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
+  
   # 
   # - name: Publons
   # icon: "fab fa-facebook"
@@ -69,31 +57,35 @@ socialLinks:
   icon: "fab fa-orcid"
   url: "https://orcid.org/0000-0002-2839-3622"
   
-"lista completa"
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/11311874/gustavo-mourao"
 
-# - name: Google Scholar
-#   icon: "http://i.imgur.com/2iVxee6.png""
-#   url: "#"
-  # 
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://facebook.com/gustavomourao1"
+
+- name: Instagran
+  icon: "fab fa-instagram-square"
+  url: "https://www.instagram.com/gustavofloresteiro/"
+
+- name: YouTube
+  icon: "fab fa-youtube"
+  url: "https://www.youtube.com/channel/UC-PCLVs1nmbOnfJJEvey8hg"
+  
+    # 
   # - name: Udemy
   # icon: "fab fa-facebook"
   # url: "#"
   # 
-  # - name: Instagran
-  # icon: "fab fa-facebook"
-  # url: "#"
-  # 
-  # - name: YouTube
-  ## icon: "fab fa-facebook"
-  # url: "#"
   
   # - name: Certificados
   ## icon: "fab fa-facebook"
   # url: "#"
   
-  # - name: WhatsApp
-  ## icon: "fab fa-facebook"
-  # url: "#"
+- name: WhatsApp
+  icon: "fab fa-whatsapp-square"
+  url: "https://api.whatsapp.com/send?phone=5538988217313&text=Bom%20dia.%20Usei%20o%20link%20do%20seu%20site%20para%20entrar%20em%20contato%20com%20voc%C3%AA"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
@@ -115,18 +107,18 @@ badges:
   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
 - type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
+  name: Geoprocessamento
+  percentage: 90
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
+  name: Linguagem R
+  percentage: 85
   color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
+  name: HInovações
+  percentage: 95
   color: orange
 
 # you can also provide color code instead of the color name
