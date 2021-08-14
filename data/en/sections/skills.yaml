@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Skills
+  name: Abilidades
   id: skills
   enable: true
   weight: 2
@@ -11,39 +11,52 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+- name: QGis
+  logo: /images/sections/skills/qgis.png
+  summary: "Software livre de processamento de imagens georeferenciadas, criação de mapas
+  e análises espaciais.Outros softwares são (ou podem ser) integrados a ele, tais como GRASS, Saga,
+  Orfeo e TauDEM, proporcionando maior versatilidade no processamento e maior disponibilidade de recursos"
+  url: "#"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+- name: Liguagem R
+  logo: /images/sections/skills/r.png
+  summary: "A linguagem de programção R tem como principal foco análises estatiscas,
+  porém não se limita a isto. Domino a programação em R na criação de códigos para automação processos,
+  criar dashboards dinâmicos, testes estatítiscos, entre outros."
+  url: "#"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: Fusion LDV
+  logo: /images/sections/skills/fusion.png
+  summary: "Processamento de nuvens de pontos LiDAR para criação de produtos como:
+  modelos digitais de terreno, modelos digitais de superfície, individualização de árvores,
+  obetenção de altura e localização de árvores em uma floresta."
+  url: "#"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
+- name: ArcGis
+  logo: /images/sections/skills/arcgis.svg
+  summary: "Software completo de mapeamento GIS, permitindo a criação e manipulação
+  de dados georeferenciados."
+  url: "#"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+- name: Pacote Oficie e alternativos
+  logo: /images/sections/skills/oficie.png
+  summary: "Edição de textos, planilhas e apresentaçãoes. Utilização dos programas
+  Word, Excel, PowerPoint, LibreOfice, Google, etc."
+  url: "#"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+- name: Linguagem Python
+  logo: /images/sections/skills/python.png
+  summary: "Linguagem de programação utilizada para diversas funcionalidades. 
+  Conhecê-la torna-se um diferencial, pois ela está integrada em diversos outras 
+  aplicações, como por exemplo o QGis e o ArcGis. Estou aprendendo..."
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "Os bancos de dados contribuiem para melhoria do fluxo de trabalho. 
+  Facilitam o trabalho em equipe e trazem maior organização nos dados. Estou aprendendo..."
+  url: "#"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: Power BI
+  logo: /images/sections/skills/powerbi.png
+  summary: "Tecnologia que vem ganhando destaque no processamento de dados e na criação
+  de dashboards. Estou aprendendo ..."
