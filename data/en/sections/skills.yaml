@@ -13,41 +13,47 @@ section:
 skills:
 - name: QGis
   logo: /images/sections/skills/qgis.png
-  summary: "Software livre de processamento de imagens georeferenciadas, criação de mapas
-  e análises espaciais.Outros softwares são (ou podem ser) integrados a ele, tais como GRASS, Saga,
-  Orfeo e TauDEM, proporcionando maior versatilidade no processamento e maior disponibilidade de recursos"
+  summary: "Trabalho com geoprocessamento de imagens, usando preferencialmente o QGis.
+  Por ser um software livre, ele permite a integração de diversos outros provedores de
+  algoritmos, como por exemplo o GRASS, Saga, TauDEM e Orfeo, dando mais versatilidade
+  na criação de mapas e nas análises espaciais."
   url: "#"
 
 - name: Liguagem R
   logo: /images/sections/skills/r.png
-  summary: "A linguagem de programção R tem como principal foco análises estatiscas,
-  porém não se limita a isto. Domino a programação em R na criação de códigos para automação processos,
-  criar dashboards dinâmicos, testes estatítiscos, entre outros."
+  summary: "Trabalho com a linguagem R em diversos cenários. Em minhas pesquisas, utilizo-o
+  para processamento de dados, testes estatísticas e geoestatísticas. Esse site foi editado em R,
+  as postagens são criadas com R Markdown. Com esta linguagem também crio dashboards e 
+  sites reativos. Além de tudo, amo usar R para automatizar fluxos repetitivos."
   url: "#"
 
-- name: Fusion LDV
-  logo: /images/sections/skills/fusion.png
-  summary: "Processamento de nuvens de pontos LiDAR para criação de produtos como:
-  modelos digitais de terreno, modelos digitais de superfície, individualização de árvores,
-  obetenção de altura e localização de árvores em uma floresta."
+- name: LiDAR
+  logo: /images/sections/skills/fusion.jpg
+  summary: "Ao longo do meu curso de mestrado, processei transctos de nuvens de pontos
+  ao longo de toda Amazônia, obtendo altura e localização de mais de 200 mil árvores em uma floresta
+  torpical umida. Ainda, produzi modelos digitais de terreno, modelos digitais de 
+  superfície e individualização de árvores com esta tecnologia."
   url: "#"
 
 - name: ArcGis
-  logo: /images/sections/skills/arcgis.svg
-  summary: "Software completo de mapeamento GIS, permitindo a criação e manipulação
-  de dados georeferenciados."
+  logo: /images/sections/skills/arcgis.png
+  summary: "Um dos meus principais trabalhos com o ArcGis foi a criação de cenários
+  de vigilância e prevenção de incêndios florestais para o Parque Estadual do Biribiri / MG. 
+  Com auxilio do programa, defini que para o parque o melhor método de vigilancia
+  é o misto: pontos fixos e monitoramento móvel."
   url: "#"
 
-- name: Pacote Oficie e alternativos
-  logo: /images/sections/skills/oficie.png
-  summary: "Edição de textos, planilhas e apresentaçãoes. Utilização dos programas
-  Word, Excel, PowerPoint, LibreOfice, Google, etc."
+- name: Pacote Officie e alternativos
+  logo: /images/sections/skills/office.png
+  summary: "Fundamental para a maioria dos trabalhos, domino esta tecnologia, pois 
+  com ela faço relatórios técnicos, processamento de planilhas de dados, criação 
+  de apresentação para palestras e demonstração de resultados, etc."
   url: "#"
 
 - name: Linguagem Python
   logo: /images/sections/skills/python.png
   summary: "Linguagem de programação utilizada para diversas funcionalidades. 
-  Conhecê-la torna-se um diferencial, pois ela está integrada em diversos outras 
+  Conhecê-la torna-se um diferencial, pois ela está integrada nas mais variadas
   aplicações, como por exemplo o QGis e o ArcGis. Estou aprendendo..."
 
 - name: SQL
