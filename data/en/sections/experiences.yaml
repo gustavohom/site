@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiences
+  name: Experiência
   id: experiences
   enable: true
   weight: 3
@@ -8,57 +8,76 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true 
 
+
+#Agroita Engenharia Janeiro/2017 – Agosto/2018
+#Georreferenciamento, documentação e CAR de imóveis 
+
+
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Agroita.
+    url: "h#"
+    location: Itamarandiba (MG)
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Empresa de referência no Vale do Jequitinhona. Prestadora de serviços
+    para pequenos e médios produtores rurais do municipio de Itamarandiba e região.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Estagiário
+    start: Nov 2017
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Dec 2018
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Georreferenciamento de imóveis rurais.
+    - Documentação de imóveis rurais.
+    - Cadastro Ambiental Rural.
+    - Assistência técnicas de pequenos produtores.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: UFVJM.
+    url: "https://portal.ufvjm.edu.br"
+    location: Diamantina (MG)
+    overview: Universidade Federal dos Vales do Jequitinhonha e Mucuri.
   positions:
-  - designation: Software Engineer
-    start: March 2016
+  - designation: Monitor de Geoprocessamento e Geotecnologias.
+    start: March 2017
     end: May 2017
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Tirar duvidas teóricas sobre Sistemas de Informações Geográficas.
+    - Ajudar alunos da graduação no aprendizagem de utilização de softwares de 
+    geoprocessamento.
+    - Apresentar, aprender e esclarecer duvidas de novas Geotecnologias.
+    
+  - designation: Membro do Laboratório de Manejo de Precisão (TreeLab)
+    url:"https://sites.google.com/view/treelab-ufvjm/home"
+    start: Nov 2018
+    end: Oct 2021
+    responsibilities:
+    - Pesquisas relacionadas à inovações tecnológicas relacionadas ao manejo de precisão.
+    - Publicação de artigos, resumos e notas com o tema de manejo de precisão.
+    - Apresentações e eventos em congressos, fóruns, workshops, etc.
+    
+  - designation: Membro do Laboratório de Geoprocessamento e Geotecnologias.
+    url:"#"
+    start: Nov 2017
+    end: Oct 2018
+    responsibilities:
+    - Pesquisas relacionadas à geoprocessamento e geotecnologias.
+    - Publicação de artigos, resumos e notas com o tema de geoprocessamento e geotecnologias.
+    - Apresentações e eventos em congressos, fóruns, workshops, etc.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Ação Global.
+    url: "#"
+    location: Itacambira (MG).
+    overview: Ação socioambiental voluntária para comunidades rurais do municipio 
+    de Itacambira (MG).
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Engenheiro Florestal
+    start: Jun 2018
+    end: Jan 2019
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Assistência Técnica.
+    - Palestras.
+    - Concientização ambiental.

@@ -15,7 +15,7 @@ skills:
   logo: /images/sections/skills/qgis.png
   summary: "Trabalho com geoprocessamento de imagens, usando preferencialmente o QGis.
   Por ser um software livre, ele permite a integração de diversos outros provedores de
-  algoritmos, como por exemplo o GRASS, Saga, TauDEM e Orfeo, dando mais versatilidade
+  algoritmos, como por exemplo o GRASS, Saga, TauDEM e Orfeo. O QGis me fornece maior versatilidade
   na criação de mapas e nas análises espaciais."
   url: "#"
 
