@@ -56,8 +56,8 @@ experiences:
     end: Oct 2021
     responsibilities:
     - Pesquisas relacionadas à inovações tecnológicas relacionadas ao manejo de precisão.
-    - Publicação de artigos, resumos e notas com o tema de manejo de precisão.
-    - Apresentações e eventos em congressos, fóruns, workshops, etc.
+    # - Publicação de artigos, resumos e notas com o tema de manejo de precisão.
+    # - Apresentações e eventos em congressos, fóruns, workshops, etc.
     # - [Veja mais informações do TreeLab](https://sites.google.com/view/treelab-ufvjm/home)
 
   - designation: Membro do Laboratório de Geoprocessamento e Geotecnologias.
