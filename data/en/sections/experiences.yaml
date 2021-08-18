@@ -29,7 +29,7 @@ experiences:
     - Assistência técnicas de pequenos produtores.
 
 - company:
-    name: UFVJM.
+    name: Universidade Federal dos Vales do Jequitinhonha e Mucuri (UFVJM).
     url: "https://portal.ufvjm.edu.br"
     location: Diamantina (MG)
     overview: Universidade Federal dos Vales do Jequitinhonha e Mucuri.
@@ -51,6 +51,15 @@ experiences:
   #   - Apresentações e eventos em congressos, fóruns, workshops, etc.
   #   - [Veja mais informações do TreeLab](https://sites.google.com/view/treelab-ufvjm/home)
 
+  - designation: Membro do Laboratório de Manejo de Precisão (TreeLab).
+    start: Nov 2018
+    end: Oct 2021
+    responsibilities:
+    - Pesquisas relacionadas à inovações tecnológicas relacionadas ao manejo de precisão.
+    - Publicação de artigos, resumos e notas com o tema de manejo de precisão.
+    - Apresentações e eventos em congressos, fóruns, workshops, etc.
+    - [Veja mais informações do TreeLab](https://sites.google.com/view/treelab-ufvjm/home)
+
   - designation: Membro do Laboratório de Geoprocessamento e Geotecnologias.
     start: Nov 2017
     end: Oct 2018
@@ -58,15 +67,7 @@ experiences:
     - Pesquisas relacionadas à geoprocessamento e geotecnologias.
     - Publicação de artigos, resumos e notas com o tema de geoprocessamento e geotecnologias.
     - Apresentações e eventos em congressos, fóruns, workshops, etc.
-
-  - designation: sda Membro do Laboratório de Geoprocessamento e Geotecnologias.
-    start: Nov 2017
-    end: Oct 2018
-    responsibilities:
-    - Pesquisas relacionadas à geoprocessamento e geotecnologias.
-    - Publicação de artigos, resumos e notas com o tema de geoprocessamento e geotecnologias.
-    - Apresentações e eventos em congressos, fóruns, workshops, etc.
-
+    
 - company:
     name: Ação Global.
     url: "#"
