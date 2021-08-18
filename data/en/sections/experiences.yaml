@@ -42,24 +42,24 @@ experiences:
     - Ajudar alunos da graduação no aprendizagem de utilização de softwares de geoprocessamento.
     - Apresentar, aprender e esclarecer duvidas de novas Geotecnologias.
     
-#   - designation: Membro do Laboratório de Manejo de Precisão (TreeLab)
-#     url:"https://sites.google.com/view/treelab-ufvjm/home"
-#     start: Nov 2018
-#     end: Oct 2021
-#     responsibilities:
-#     - Pesquisas relacionadas à inovações tecnológicas relacionadas ao manejo de precisão.
-#     - Publicação de artigos, resumos e notas com o tema de manejo de precisão.
-#     - Apresentações e eventos em congressos, fóruns, workshops, etc.
-#     
-#   - designation: Membro do Laboratório de Geoprocessamento e Geotecnologias.
-#     url:"#"
-#     start: Nov 2017
-#     end: Oct 2018
-#     responsibilities:
-#     - Pesquisas relacionadas à geoprocessamento e geotecnologias.
-#     - Publicação de artigos, resumos e notas com o tema de geoprocessamento e geotecnologias.
-#     - Apresentações e eventos em congressos, fóruns, workshops, etc.
-# 
+  - designation: Membro do Laboratório de Manejo de Precisão (TreeLab)
+    url:"https://sites.google.com/view/treelab-ufvjm/home"
+    start: Nov 2018
+    end: Oct 2021
+    responsibilities:
+    - Pesquisas relacionadas à inovações tecnológicas relacionadas ao manejo de precisão.
+    - Publicação de artigos, resumos e notas com o tema de manejo de precisão.
+    - Apresentações e eventos em congressos, fóruns, workshops, etc.
+
+  - designation: Membro do Laboratório de Geoprocessamento e Geotecnologias.
+    url:"#"
+    start: Nov 2017
+    end: Oct 2018
+    responsibilities:
+    - Pesquisas relacionadas à geoprocessamento e geotecnologias.
+    - Publicação de artigos, resumos e notas com o tema de geoprocessamento e geotecnologias.
+    - Apresentações e eventos em congressos, fóruns, workshops, etc.
+
 # - company:
 #     name: Ação Global.
 #     url: "#"
