@@ -8,24 +8,19 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true 
 
-
-#Agroita Engenharia Janeiro/2017 – Agosto/2018
-#Georreferenciamento, documentação e CAR de imóveis 
-
-
 # Your experiences
 experiences:
 - company:
     name: Agroita.
-    url: "h#"
+    url: "#"
     location: Itamarandiba (MG)
     # company overview
     overview: Empresa de referência no Vale do Jequitinhona. Prestadora de serviços para pequenos e médios produtores rurais do municipio de Itamarandiba e região.
-  positions:.
+  positions:
   - designation: Estagiário
-    start: Nov 2017
+    start: Jan 2017
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    end: Dec 2018
+    end: Jan 2018
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Georreferenciamento de imóveis rurais.
@@ -44,8 +39,7 @@ experiences:
     end: May 2017
     responsibilities:
     - Tirar duvidas teóricas sobre Sistemas de Informações Geográficas.
-    - Ajudar alunos da graduação no aprendizagem de utilização de softwares de 
-    geoprocessamento.
+    - Ajudar alunos da graduação no aprendizagem de utilização de softwares de geoprocessamento.
     - Apresentar, aprender e esclarecer duvidas de novas Geotecnologias.
     
   - designation: Membro do Laboratório de Manejo de Precisão (TreeLab)
