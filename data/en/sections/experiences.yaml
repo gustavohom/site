@@ -20,9 +20,8 @@ experiences:
     url: "h#"
     location: Itamarandiba (MG)
     # company overview
-    overview: Empresa de referência no Vale do Jequitinhona. Prestadora de serviços
-    para pequenos e médios produtores rurais do municipio de Itamarandiba e região.
-  positions:
+    overview: Empresa de referência no Vale do Jequitinhona. Prestadora de serviços para pequenos e médios produtores rurais do municipio de Itamarandiba e região.
+  positions:.
   - designation: Estagiário
     start: Nov 2017
     # don't provide end date if you are currently working there. It will be replaced by "Present"
@@ -71,8 +70,7 @@ experiences:
     name: Ação Global.
     url: "#"
     location: Itacambira (MG).
-    overview: Ação socioambiental voluntária para comunidades rurais do municipio 
-    de Itacambira (MG).
+    overview: Ação socioambiental voluntária para comunidades rurais do municipio de Itacambira (MG).
   positions:
   - designation: Engenheiro Florestal
     start: Jun 2018
