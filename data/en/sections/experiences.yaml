@@ -9,13 +9,28 @@ section:
   # hideTitle: true 
 
 # Your experiences
+
 experiences:
+- company:
+    name: Ação Global.
+    url: "#"
+    location: Itacambira (MG).
+    overview: Ação socioambiental voluntária para comunidades rurais do municipio de Itacambira (MG).
+  positions:
+  - designation: Engenheiro Florestal
+    start: Jun 2018
+    end: Jan 2019
+    responsibilities:
+    - Assistência Técnica.
+    - Palestras.
+    - Concientização ambiental.
+    
 - company:
     name: Agroita.
     url: "#"
     location: Itamarandiba (MG)
     # company overview
-    overview: Empresa de referência no Vale do Jequitinhona. Prestadora de serviços para pequenos e médios produtores rurais do municipio de Itamarandiba e região.
+    overview: A Agroita é uma empresa de referência no Vale do Jequitinhona. Prestadora de serviços para pequenos e médios produtores rurais do municipio de Itamarandiba e região. Ela me proporcionou uma vivência de campo. Aprendi na prática como trabalhar com pequenos e médios produtores rurais.
   positions:
   - designation: Estagiário
     start: Jan 2017
@@ -42,15 +57,6 @@ experiences:
     - Ajudar alunos da graduação no aprendizagem de utilização de softwares de geoprocessamento.
     - Apresentar, aprender e esclarecer duvidas de novas Geotecnologias.
     
-  # - designation: Membro do Laboratório de Manejo de Precisão (TreeLab)
-  #   start: Nov 2018
-  #   end: Oct 2021
-  #   responsibilities:
-  #   - Pesquisas relacionadas à inovações tecnológicas relacionadas ao manejo de precisão.
-  #   - Publicação de artigos, resumos e notas com o tema de manejo de precisão.
-  #   - Apresentações e eventos em congressos, fóruns, workshops, etc.
-  #   - [Veja mais informações do TreeLab](https://sites.google.com/view/treelab-ufvjm/home)
-
   - designation: Membro do Laboratório de Manejo de Precisão (TreeLab).
     start: Nov 2018
     end: Oct 2021
@@ -58,7 +64,7 @@ experiences:
     - Pesquisas relacionadas à inovações tecnológicas relacionadas ao manejo de precisão.
     - Publicação de artigos, resumos e notas com o tema de manejo de precisão.
     - Apresentações e eventos em congressos, fóruns, workshops, etc.
-    - Veja mais informações sobre o [TreeLab](https://sites.google.com/view/treelab-ufvjm/home).
+    - Veja mais informações sobre o [TreeLab](https://sites.google.com/view/treelab-ufvjm/home) [clicando aqui](https://sites.google.com/view/treelab-ufvjm/home).
 
   - designation: Membro do Laboratório de Geoprocessamento e Geotecnologias.
     start: Nov 2017
