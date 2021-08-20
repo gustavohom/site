@@ -15,7 +15,7 @@ degrees:
   timeframe: 2019-2021
   institution:
     name: Universidade Federal dos Vales do Jequitinhonha e Mucuri
-    url: "portal.ufvjm.edu.br"
+    url: "https://portal.ufvjm.edu.br"
   publications: #(optional)
   - title: Distribuição espacial de árvores emergentes na Amazônia a partir de dados oriundos de escaneamento laser aerotransportado. - 2021
     url: "#"
@@ -25,40 +25,40 @@ degrees:
     url: "#"
   extracurricularActivities: #(optional)
   - Membro do Laboratório de Manejo de Precisão (TreeLab).
-    
-- name: Engenharia Florestal
-  icon: fa-graduation-cap
-  timeframe: 2014-2018
-  institution:
-    name: Universidade Federal dos Vales do Jequitinhonha e Mucuri
-    url: "portal.ufvjm.edu.br"
-  publications: #(optional)
-  - title: Análise de cenários de vigilância para detecção de incêndios florestais no Parque Estadual do Biribiri - Diamantina/MG – 2018
-    url: "#"
-  - title: Modelagem orientada a objetos para projeção de volume em florestas plantadas. – 2018
-    url: "#"
-  - title: Análise das ocorrências de incêndios florestais no Parque Estadual da Serra do Intendente – MG. – 2018
-    url: "#"
-  - title: Evolução no manejo e gestão do acervo botânico do Herbário Dendrológico Jeanine Felfili – HDJF – 2018
-    url: "#"
-  - title: Uso do QGIS na locação de torres de vigilância de incêndios florestais: exemplo do Parque Estadual do Biribiri – 2018
-    url: "#"
-  extracurricularActivities: #(optional)
-  - Membro do Laboratório de Manejo de Precisão (TreeLab).
-  - Membro do Laboratório de Geoprocessamento e Geotecnologias.
-  
-- name: Cursos
-  icon: fa-school
-  timeframe: 2014-2021
-  institution:
-    name: Cursos variados
-      takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: false
-    courses:
-    - name: Data Science: Foundations using R Specialization (20 semanas) - Johns Hopkins University (Coursera) [R Programming, Getting and Cleaning Data, Exploratory Data Analysis, Reproducible Research, The Data Scientist’s Toolbox]
-    - name: Introduction to GIS Mapping (7 semanas) - University of Toronto (Coursera)
-    - name: Introdução ao uso de Inteligências artificiais com software Fusion (4 horas)
-    - name: Educação Ambiental e Mudanças do Clima para Gestores (30 horas)
-    - name: Planejamento, Manejo e Gestão de Bacias (40 horas)
-    - name: Educação Ambiental e Água (60 horas)
+#     
+# - name: Engenharia Florestal
+#   icon: fa-graduation-cap
+#   timeframe: 2014-2018
+#   institution:
+#     name: Universidade Federal dos Vales do Jequitinhonha e Mucuri
+#     url: "https://portal.ufvjm.edu.br"
+#   publications: #(optional)
+#   - title: Análise de cenários de vigilância para detecção de incêndios florestais no Parque Estadual do Biribiri - Diamantina/MG – 2018
+#     url: "#"
+#   - title: Modelagem orientada a objetos para projeção de volume em florestas plantadas. – 2018
+#     url: "#"
+#   - title: Análise das ocorrências de incêndios florestais no Parque Estadual da Serra do Intendente – MG. – 2018
+#     url: "#"
+#   - title: Evolução no manejo e gestão do acervo botânico do Herbário Dendrológico Jeanine Felfili – HDJF – 2018
+#     url: "#"
+#   - title: Uso do QGIS na locação de torres de vigilância de incêndios florestais: exemplo do Parque Estadual do Biribiri – 2018
+#     url: "#"
+#   extracurricularActivities: #(optional)
+#   - Membro do Laboratório de Manejo de Precisão (TreeLab).
+#   - Membro do Laboratório de Geoprocessamento e Geotecnologias.
+#   
+# - name: Cursos
+#   icon: fa-school
+#   timeframe: 2014-2021
+#   institution:
+#     name: Cursos variados
+#       takenCourses: #(optional)
+#     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+#     showGrades: false
+#     courses:
+#     - name: Data Science: Foundations using R Specialization (20 semanas) - Johns Hopkins University (Coursera) [R Programming, Getting and Cleaning Data, Exploratory Data Analysis, Reproducible Research, The Data Scientist’s Toolbox]
+#     - name: Introduction to GIS Mapping (7 semanas) - University of Toronto (Coursera)
+#     - name: Introdução ao uso de Inteligências artificiais com software Fusion (4 horas)
+#     - name: Educação Ambiental e Mudanças do Clima para Gestores (30 horas)
+#     - name: Planejamento, Manejo e Gestão de Bacias (40 horas)
+#     - name: Educação Ambiental e Água (60 horas)
