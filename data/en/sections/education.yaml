@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Education
+  name: Formação Acadêmica
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
@@ -10,80 +10,55 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: Mestre em Ciência Florestal
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2019-2021
   institution:
-    name: ABC University of Technology
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
+    name: Universidade Federal dos Vales do Jequitinhonha e Mucuri
+    url: "portal.ufvjm.edu.br"
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  - title: Distribuição espacial de árvores emergentes na Amazônia a partir de dados oriundos de escaneamento laser aerotransportado. - 2021
     url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
+  - title: Análise das ocorrências de incêndios florestais, entre os anos de 2015 e 2018, no Parque Estadual da Serra do Intendente – MG – 2019
     url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+  - title: Aplicando o problema do caixeiro viajante numa rede viária urbana – 2019
     url: "#"
-- name: B.Sc. in Computer Science & Engineering
+  extracurricularActivities: #(optional)
+  - Membro do Laboratório de Manejo de Precisão (TreeLab).
+    
+- name: Engenharia Florestal
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2014-2018
   institution:
-    name: University of XYZ
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
+    name: Universidade Federal dos Vales do Jequitinhonha e Mucuri
+    url: "portal.ufvjm.edu.br"
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  - title: Análise de cenários de vigilância para detecção de incêndios florestais no Parque Estadual do Biribiri - Diamantina/MG – 2018
     url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
+  - title: Modelagem orientada a objetos para projeção de volume em florestas plantadas. – 2018
+    url: "#"
+  - title: Análise das ocorrências de incêndios florestais no Parque Estadual da Serra do Intendente – MG. – 2018
+    url: "#"
+  - title: Evolução no manejo e gestão do acervo botânico do Herbário Dendrológico Jeanine Felfili – HDJF – 2018
+    url: "#"
+  - title: Uso do QGIS na locação de torres de vigilância de incêndios florestais: exemplo do Parque Estadual do Biribiri – 2018
     url: "#"
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
-  institution:
-    name: MST College of Science
-    url: "#"
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
+  - Membro do Laboratório de Manejo de Precisão (TreeLab).
+  - Membro do Laboratório de Geoprocessamento e Geotecnologias.
+  
+- name: Cursos
   icon: fa-school
-  timeframe: 2005-2010
+  timeframe: 2014-2021
   institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    name: Cursos variados
+      takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    courses:
+    - name: Data Science: Foundations using R Specialization (20 semanas) - Johns Hopkins University (Coursera) [R Programming, Getting and Cleaning Data, Exploratory Data Analysis, Reproducible Research, The Data Scientist’s Toolbox]
+    - name: Introduction to GIS Mapping (7 semanas) - University of Toronto (Coursera)
+    - name: Introdução ao uso de Inteligências artificiais com software Fusion (4 horas)
+    - name: Educação Ambiental e Mudanças do Clima para Gestores (30 horas)
+    - name: Planejamento, Manejo e Gestão de Bacias (40 horas)
+    - name: Educação Ambiental e Água (60 horas)
