@@ -55,7 +55,7 @@ degrees:
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: false
     courses:
-    - name: Data Structures and Algorithm
+    - name: Data Science: Foundations using R Specialization (20 semanas) - Johns Hopkins University (Coursera) "[R Programming, Getting and Cleaning Data, Exploratory Data Analysis, Reproducible Research, The Data Scientist’s Toolbox]"".
       achieved: 3.75
       outOf: 4
     - name: Network Security
@@ -68,25 +68,10 @@ degrees:
       achieved: 3.75
       outOf: 4
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  - title: QGIS, Automação na produção de mapas com o Atlas
     url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  
-# - name: Cursos
-#   icon: fa-school
-#   timeframe: 2014-2021
-#   institution:
-#     name: Cursos variados
-#       takenCourses: #(optional)
-#     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-#     showGrades: false
-#     courses:
+ 
+
 #     - name: Data Science: Foundations using R Specialization (20 semanas) - Johns Hopkins University (Coursera) [R Programming, Getting and Cleaning Data, Exploratory Data Analysis, Reproducible Research, The Data Scientist’s Toolbox]
 #       achieved: 3.75
 #       outOf: 4
