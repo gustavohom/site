@@ -25,7 +25,6 @@ degrees:
     url: "#"
   extracurricularActivities: #(optional)
   - Membro do Laboratório de Manejo de Precisão (TreeLab).
-#     
 # - name: Engenharia Florestal
 #   icon: fa-graduation-cap
 #   timeframe: 2014-2018
@@ -46,19 +45,18 @@ degrees:
 #   extracurricularActivities: #(optional)
 #   - Membro do Laboratório de Manejo de Precisão (TreeLab).
 #   - Membro do Laboratório de Geoprocessamento e Geotecnologias.
-
-- name: Cursos
-  icon: fa-school
-  timeframe: 2014-2021
-  institution:
-    name: Cursos variados
-      takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: false
-    courses:
-    - name: Data Science: Foundations using R Specialization (20 semanas) - Johns Hopkins University (Coursera) [R Programming, Getting and Cleaning Data, Exploratory Data Analysis, Reproducible Research, The Data Scientist’s Toolbox]
-    - name: Introduction to GIS Mapping (7 semanas) - University of Toronto (Coursera)
-    - name: Introdução ao uso de Inteligências artificiais com software Fusion (4 horas)
-    - name: Educação Ambiental e Mudanças do Clima para Gestores (30 horas)
-    - name: Planejamento, Manejo e Gestão de Bacias (40 horas)
-    - name: Educação Ambiental e Água (60 horas)
+# - name: Cursos
+#   icon: fa-school
+#   timeframe: 2014-2021
+#   institution:
+#     name: Cursos variados
+#       takenCourses: #(optional)
+#     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+#     showGrades: false
+#     courses:
+#     - name: Data Science: Foundations using R Specialization (20 semanas) - Johns Hopkins University (Coursera) [R Programming, Getting and Cleaning Data, Exploratory Data Analysis, Reproducible Research, The Data Scientist’s Toolbox]
+#     - name: Introduction to GIS Mapping (7 semanas) - University of Toronto (Coursera)
+#     - name: Introdução ao uso de Inteligências artificiais com software Fusion (4 horas)
+#     - name: Educação Ambiental e Mudanças do Clima para Gestores (30 horas)
+#     - name: Planejamento, Manejo e Gestão de Bacias (40 horas)
+#     - name: Educação Ambiental e Água (60 horas)
