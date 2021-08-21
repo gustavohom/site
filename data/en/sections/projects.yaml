@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Projetos
   id: projects
   enable: true
   weight: 5
@@ -10,55 +10,50 @@ section:
 
 # filter buttons
 buttons:
-- name: All
+- name: Todos
   filter: "all"
-- name: Professional
+- name: Profissional
   filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
+- name: Academico
+  filter: "academico"
+- name: Lazer
+  filter: "lazzer"
+- name: Linguagem R
+  filter: "linguagem-R"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+- name: Pacote R {gmourao}
+  logo: /images/sections/projects/gm.png
+  role: Criador
+  timeline: "2021 - Presente"
+  repo: https://github.com/gustavohom/gmourao # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  summary: Pacote R com funções personalizadas usadas em minhas rotinas de trabalho.
+  tags: ["professional", "linguagem-R"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
+- name: Ebook (R)ando
+  logo: /images/sections/projects/ebook.png
+  role: Desenvolvedor
+  timeline: "Iniciando"
+  repo: https://github.com/gustavohom/gitbook
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  summary: Livro que mostro meus principais códigos, dicas e experiências com a linguagem de progração R
+  tags: ["professional", "lazer"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: Canal Youtube
+  logo: /images/sections/projects/youtube.png
+  role: Criador
+  timeline: "Iniciando"
+  url: "#"
+  summary: Canal com conteudos educacionais sem fins lucrativos.
+  tags: ["academico"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
+- name: Interface gráfica para Fusion
+  logo: /images/sections/projects/shiny.png
   role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
+  timeline: "Iniciando"
+  repo: "#"
   #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
-
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+  summary: Uso do pacote Shiny para criação de uma interface gráfica para o software Fusion
+  tags: ["lazer"]
