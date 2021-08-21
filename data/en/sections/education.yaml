@@ -55,7 +55,7 @@ degrees:
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: false
     courses:
-    - name: Data Science: Foundations using R Specialization (20 semanas) - Johns Hopkins University (Coursera) "[R Programming, Getting and Cleaning Data, Exploratory Data Analysis, Reproducible Research, The Data Scientist’s Toolbox]"".
+    - name: Data Science: Foundations using R Specialization (20 semanas) - Johns Hopkins University (Coursera) "[ Programming, Getting and Cleaning Data, Exploratory Data Analysis, Reproducible Research, The Data Scientist’s Toolbox]".
       achieved: 3.75
       outOf: 4
     - name: Network Security
