@@ -58,35 +58,21 @@ degrees:
     - name: Data Science - Foundations using R Specialization (20 semanas) - Johns Hopkins University (Coursera) - [Programming, Getting and Cleaning Data, Exploratory Data Analysis, Reproducible Research, The Data Scientist’s Toolbox].
       achieved: 3.75
       outOf: 4
-    - name: Network Security
+    - name: Introduction to GIS Mapping (7 semanas) - University of Toronto (Coursera)
       achieved: 3.80
       outOf: 4
-    - name: Operating System
+    - name: Introdução ao uso de Inteligências artificiais com software Fusion (4 horas)
       achieved: 3.5
       outOf: 4
-    - name: Artificial Intelligent
+    - name: Educação Ambiental e Mudanças do Clima para Gestores (30 horas)
+      achieved: 3.75
+      outOf: 4
+    - name: Planejamento, Manejo e Gestão de Bacias (40 horas)
+      achieved: 3.75
+      outOf: 4
+    - name: Educação Ambiental e Água (60 horas)
       achieved: 3.75
       outOf: 4
   publications: #(optional)
   - title: QGIS - Automação na produção de mapas com o Atlas
     url: "#"
- 
-
-#     - name: Data Science: Foundations using R Specialization (20 semanas) - Johns Hopkins University (Coursera) [R Programming, Getting and Cleaning Data, Exploratory Data Analysis, Reproducible Research, The Data Scientist’s Toolbox]
-#       achieved: 3.75
-#       outOf: 4
-#     - name: Introduction to GIS Mapping (7 semanas) - University of Toronto (Coursera)
-#       achieved: 3.75
-#       outOf: 4
-#     - name: Introdução ao uso de Inteligências artificiais com software Fusion (4 horas)
-#       achieved: 3.75
-#       outOf: 4
-#     - name: Educação Ambiental e Mudanças do Clima para Gestores (30 horas)
-#       achieved: 3.75
-#       outOf: 4
-#     - name: Planejamento, Manejo e Gestão de Bacias (40 horas)
-#       achieved: 3.75
-#       outOf: 4
-#     - name: Educação Ambiental e Água (60 horas)
-#       achieved: 3.75
-#       outOf: 4
