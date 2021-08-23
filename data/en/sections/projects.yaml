@@ -17,7 +17,7 @@ buttons:
 - name: Academico
   filter: "academico"
 - name: Lazer
-  filter: "lazzer"
+  filter: "lazer"
 - name: Linguagem R
   filter: "linguagem-R"
 
@@ -39,7 +39,7 @@ projects:
   repo: https://github.com/gustavohom/gitbook
   #url: ""
   summary: Livro que mostro meus principais códigos, dicas e experiências com a linguagem de progração R
-  tags: ["professional", "lazer"]
+  tags: ["linguagem-R", "lazer"]
 
 - name: Canal Youtube
   logo: /images/sections/projects/youtube.png
