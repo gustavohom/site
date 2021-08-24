@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Achievements
+  name: Algumas recordações
   id: achievements
   enable: true
   weight: 8
@@ -10,15 +10,15 @@ section:
 
 # Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+- title: Amazônia
+  image: /images/sections/achievements/am.jpg
+  summary: Tive o previlégio de conhecer este bioma tão rico e majestoso. Essa foto é da raiz de uma árvore que teve queda natural em uma área de terra firme.
+- title: Minas Gerais
+  image: /images/sections/achievements/cr.jpg
+  summary: Fauna e flora de belezas incomparaveis.
+# - title: Defesa dissertação
+#   image: /images/sections/achievements/graduation-cap.jpg
+#   summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
+# - title: Defesa Graduação
+#   image: /images/sections/achievements/woman-winner.jpg
+#   summary: Wined best paper award at IEE Conference 2020.
