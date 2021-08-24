@@ -45,9 +45,9 @@ skills:
 
 - name: Pacote Officie e alternativos
   logo: /images/sections/skills/office.png
-  summary: "Fundamental para a maioria dos trabalhos, domino esta tecnologia, pois 
-  com ela faço relatórios técnicos, processamento de planilhas de dados, criação 
-  de apresentação para palestras e demonstração de resultados, etc."
+  summary: "Fundamental para a maioria dos trabalhos. Domino esta tecnologia. Com 
+  ela faço relatórios técnicos, processamento de planilhas de dados, criação 
+  de apresentação para palestras, demonstração de resultados, etc."
   url: "#"
 
 - name: Linguagem Python
