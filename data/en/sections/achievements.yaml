@@ -10,12 +10,12 @@ section:
 
 # Your achievements achievements
 achievements:
-- title: Amazônia
-  image: /images/sections/achievements/am.jpg
-  summary: Tive o previlégio de conhecer este bioma tão rico e majestoso. Essa foto é da raiz de uma árvore que teve queda natural em uma área de terra firme.
-- title: Minas Gerais
-  image: /images/sections/achievements/cr.jpg
-  summary: Fauna e flora de belezas incomparaveis.
+# - title: Amazônia
+#   image: /images/sections/achievements/am.jpg
+#   summary: Tive o previlégio de conhecer este bioma tão rico e majestoso. Essa foto é da raiz de uma árvore que teve queda natural em uma área de terra firme.
+# - title: Minas Gerais
+#   image: /images/sections/achievements/cr.jpg
+#   summary: Fauna e flora de belezas incomparaveis.
 # - title: Defesa dissertação
 #   image: /images/sections/achievements/graduation-cap.jpg
 #   summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
