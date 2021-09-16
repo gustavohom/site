@@ -49,11 +49,11 @@ projects:
   summary: Canal com conteudos educacionais sem fins lucrativos.
   tags: ["academico"]
 
-- name: Interface gráfica para Fusion
-  logo: /images/sections/projects/shiny.png
-  role: Nothing
-  timeline: "Iniciando"
-  repo: "#"
-  #url: ""
-  summary: Uso do pacote Shiny para criação de uma interface gráfica para o software Fusion
-  tags: ["lazer"]
+# - name: Interface gráfica para Fusion
+#   logo: /images/sections/projects/shiny.png
+#   role: Nothing
+#   timeline: "Iniciando"
+#   repo: "#"
+#   #url: ""
+#   summary: Uso do pacote Shiny para criação de uma interface gráfica para o software Fusion
+#   tags: ["lazer"]
