@@ -10,6 +10,7 @@ menu:
   sidebar:
     name: Padronizando estilos
     identifier: pradradonizando-estilos
+    parent: linguagem-r
     weight: 40
 ---
 

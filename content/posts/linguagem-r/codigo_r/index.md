@@ -8,6 +8,7 @@ menu:
   sidebar:
     name: Codigos R
     identifier: r
+    parent: linguagem-r
     weight: 40
 ---
   
