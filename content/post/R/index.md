@@ -6,9 +6,9 @@ output: pdf_document
 hero: r.png
 menu:
   sidebar:
-    name: Códigos R
+    name: Codigos R
     identifier: r
-    weight: 1
+    weight: 40
 ---
   
 Nesse artigo abordarei:
@@ -282,7 +282,7 @@ Essa foi uma maneira simples que achei para carregar, instalar e atualizar todos
 
 Se chegou até aqui, me diga: Gostou da solução? Alguma sugestão para melhorá-la?
   
-# Algumas referências:
+## Algumas referências:
   
 https://github.com/gustavohom/gmourao/blob/main/R/m_load.R
 
@@ -293,3 +293,4 @@ https://towardsdatascience.com/fastest-way-to-install-load-libraries-in-r-f6fd56
 https://medium.com/@ashirwad1992/are-you-installing-and-loading-r-packages-the-efficient-way-d1782409b90e
 
 https://github.com/DesiQuintans/librarian/blob/master/R/exported_functions.R
+
