@@ -1,7 +1,7 @@
 ---
   title: "Instalando, atualizando e carregando pacotes no R de maneira eficiente"
 date: 2021-09-18T08:06:25+06:00
-description: Shortcodes sample
+description: Pacote gmourao
 menu:
   sidebar:
   name: Códigos R
