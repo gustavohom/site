@@ -14,10 +14,7 @@ menu:
     weight: 40
 ---
 
----
-description: >-
-  Essa é uma tentativa de padronizar as nomeclatoras de variaveis, objetos,
-  classes, arquivos, colunas e linhas de tabelas.
+Essa é uma tentativa de padronizar as nomeclatoras de variaveis, objetos, classes, arquivos, colunas e linhas de tabelas.
 ---
 
 # Padronização
@@ -32,25 +29,39 @@ description: >-
 
 ```text
 nA
+
 Alunasghs
+
 variavelDEnomes
+
 ALUNAS_nomes
+
 NomAluNEsa
+
 Variavel1
+
 X
+
 nomealunas
+
 nomeAlunas
+
 NomeAlunas
+
 nome.alunas
+
 nome_alunas
+
 NOMEALUNAS
 ```
-
-        Percebemos então que apesar de ser uma variavel contendo três nomes, a nomeclatura para ela pode variar de acordo com cada autor. A tentativa deste capitulo não é ter um padrão obrigatório quanto a escrita e quais nomes devem ser usados, mas um guia para auxiliar a escrita mais eficaz dos nomes.
+ 
+ 
+Percebemos então que apesar de ser uma variavel contendo três nomes, a nomeclatura para ela pode variar de acordo com cada autor. A tentativa deste capitulo não é ter um padrão obrigatório quanto a escrita e quais nomes devem ser usados, mas um guia para auxiliar a escrita mais eficaz dos nomes.
 
 ## Princiapais estilos
 
 Não me aprofundarei na história ou a motivação de cada um dos estilos que citarei a seguir. Alguns dos principais estilos de escrita na programação e seus respectivos exemplos:
+ 
 
 | Estilo | Exemplo |
 | :--- | :--- |
@@ -66,6 +77,7 @@ Não me aprofundarei na história ou a motivação de cada um dos estilos que ci
 | Kebab Case | nome-aluna |
 | Dot Case | nome.aluna |
 
+ 
 ## Geral
 
 Não deve-se usar:
@@ -90,7 +102,8 @@ Pode-se usar
 Um estilo de padronização de pastas para dois projetos que usam o mesmo banco de dados. A pasta input são dos dados corrigidos , filtrados ou separados do banco de dados original. Os arquivos output são as saidas finais para os arquivos. Estou tentando criar uma pasta chamada `processados`para os processos intermediarios, mas sem eficacia para saida final, como por exemplo: Na pasta dados tenho um raster. Em input tenho um recorte do raster especificando a área de interesse. Em `processados`tenho o filtro para retirada de outliers do raster. Em output os arquivos processados do raster. Em entrega os produtos de interesse finalizados. Essa organização permite com que os dados sejam consultados pelo caminho relativo `../../dados` . A pasta `src` contém scripts que iremos chamar com `source()`, como funções por exemplo.
 
 Os dados brutos devem ser apenas para leitura. 
-
+ 
+ 
 ```text
 PROJETOS COM MESMO BANCO DE DADOS
 
@@ -131,8 +144,10 @@ PROJETOS COM DIFERENTES BANCOS DADOS
     \-- entrega
         +-- relatorio
 ```
-
+ 
+  
 As pastas podem ser escritas seguindo as regras gerais. Preferencialemente devem ser escritas em sneak\_case com letras minúsculas. Recomendo usar underline \( \_ \) para criação de contexto e traço \( - \) para sequenciamento, referencias geografica, data, individualizações ... Exemplo:
+ 
 
 * `projeto_carbono-01`
 * `projeto_carbono-02`
@@ -140,6 +155,7 @@ As pastas podem ser escritas seguindo as regras gerais. Preferencialemente devem
 * `mapas-rj`
 * `mapas_minas`_`_`_`gerais-bh`
 * `faturamento-2021-08-13`
+ 
 
 Sempre que possível, adicione uma breve descrição do projeto em um arquivo README.txt ou README.md
 
@@ -251,6 +267,8 @@ Abaxo segue um copiar e colar traduzido do blog dela
 > O fato de podermos descrever 35 variáveis ​​em aproximadamente 1/3 do número de linhas já mostra o valor dessa estrutura em ajudar os consumidores de dados a construir um modelo mental forte para manipular rapidamente os dados. Mas agora podemos demonstrar um valor muito maior.
 >
 > Para começar, criamos um pequeno conjunto de dados falso usando nosso esquema. Para simplificar, simulo 18 das 35 variáveis ​​listadas acima:
+ 
+ 
 
 ```text
 head(data_trips)
@@ -284,6 +302,8 @@ head(data_trips)
 #> 5         Elite       Frequent
 #> 6      Standard          Basic
 ```
+ 
+  
 
 ## No R
 
@@ -292,7 +312,7 @@ head(data_trips)
 * Começe o codigo sempre com o nome do autor, data de inicio do projeto, nome do projeto, uma pequena descrição do projeto.
 * Particione seu codigo usando `ctrl` + `shift` + `r` ou `#----` ou `#====`  exemplo:
 
-```text
+```r
 # Parte 1 --------------------------
 
 a <- c("teste", "teste2")
@@ -301,7 +321,8 @@ a <- c("teste", "teste2")
 
 print(a)
 ```
-
+ 
+  
 * Comente os códigos e nomeie os chunks!!!
 * Use `library( )` e não `require( )`
 * Não use `atach( )` e tente evitar `setwd( )`
@@ -326,9 +347,11 @@ print(a)
 | Objetos criados por classes | snake + camel case | casa\_Construida |
 | Metodos | snake\_case | dimencionar\_casa |
 | Interface | lower ou  snake\_case | txt ou txt\_descricao |
-
+ 
+ 
 Para as variaveis podemos escrever um prefixo definindo o tipo de arquivo
-
+ 
+ 
 | Abreviação | Tipo |
 | :--- | :--- |
 | vec\_ | vetor |
@@ -341,7 +364,8 @@ Para as variaveis podemos escrever um prefixo definindo o tipo de arquivo
 | pol\_ | poligono |
 | rst\_ | raster |
 | bin\_ | binario |
-
+ 
+ 
 Os sufixo podem especificar os processos posteriores, com uso de `_` ou `.`
 
 1. vec\_consumo\_gasolina
