@@ -14,9 +14,6 @@ menu:
     weight: 40
 ---
 
-Essa é uma tentativa de padronizar as nomeclatoras de variaveis, objetos, classes, arquivos, colunas e linhas de tabelas.
----
-
 # Padronização
 
 ## Introdução
