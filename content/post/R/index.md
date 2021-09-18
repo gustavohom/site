@@ -1,18 +1,19 @@
 ---
-  title: "Instalando, atualizando e carregando pacotes no R de maneira eficiente"
-date: 2021-09-18T08:06:25+06:00
+title: "Instalando, atualizando e carregando pacotes no R de maneira eficiente"
+date: '2021-09-18T08:06:25+06:00'
 description: Pacote gmourao
+output: pdf_document
+hero: r.png
 menu:
   sidebar:
-  name: Códigos R
-identifier: r
-weight: 1
-hero: r.png
+    name: Códigos R
+    identifier: r
+    weight: 1
 ---
   
-  Nesse artigo abordarei:
+Nesse artigo abordarei:
   
-  - Como  instalar, atualizar e carregar pacotes no R.
+- Como  instalar, atualizar e carregar pacotes no R.
 - Como tornar o processo eficiente.
 
 ---
@@ -73,7 +74,7 @@ library(tidyverse)
 
 A vantagem desse método é que ele verifica e ,se necessário, instala o pacote. Como desvantagem o código usando esse método pode ser extenso e quando passamos os valores para a função require() ele deve ser escrito como um objeto, porém na função install.packages() tem como parâmetro um vetor de character. Podemos corrigir isso acrescentando o parametro character.only = TRUE na função require () e library(). Quando temos um grande número de pacotes, esse método torna-se poluido. Com minha pequena experiência, em alguns momentos a sua implementação não funciona (não sei o motivo). Uma segunda maneira de instalar e carregar os pacotes é usando o loop for()
   
-  Vamos usar como exemplo:
+Vamos usar como exemplo:
   
 ```  
 packages <- c("tidyverse", "ggplot2", "readxl", "dplyr", "tidyr", "DT")
