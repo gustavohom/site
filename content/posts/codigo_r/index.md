@@ -17,6 +17,7 @@ Nesse artigo abordarei:
 - Como tornar o processo eficiente.
 
 ---
+## R base
 
 Há algum tempo me perguntei: Qual a maneira mais eficiente de instalar, carregar e atualizar um pacote no ambiente R? Essa é uma pergunta extremamente pertinente quando vamos compartilhar nossos projetos. Quando feita de maneira errada ou insuficiente pode ocasionar alguns detalhes inconvenientes: (1) Falha no código devido ao carregamento errado ou falta dos pacotes necessários; (2) Número excessivo de linhas de código; (3) Difícil entendimento dos scripts; entre outros. Como exemplo:
   
@@ -51,7 +52,9 @@ require(lubridate)
 
 ```
 
-Então comecei a pesquisar. Sei que muitos que lerão este texto não tem um aprofundamento na linguagem R, então deixarei um breve relato. Nunca tive um curso formal de R, aprendi a maior parte de forma autodidata, lendo livros, artigos, assistindo tutoriais, conversando com outros programadores, etc. Por muito tempo usei as funções de carregamento de pacotes sem entender como realmente funcionam. Sempre usei o require() , mas nunca me atentei a diferença dele para o library(). Na verdade, a mudança é bem sutil, mas gera resultados amplos, dependendo da maneira que usá-los. A função require() retorna um warning (um aviso), porém o aplicativo pode ser rodado normalmente, falhando apenas quando o pacote exigido que causou o erro for solicitado em uma função. Além disso, o require() retorna um valor lógico FALSE ou TRUE. Quando usamos a função library() para carregar um pacote, em caso de falha, ele retornará um erro, parando o aplicativo na linha do código onde o erro foi apresentado. Assim uma maneira eficiente para carregar os pacotes no ambiente R seria com a função:
+## Usando funções e loops
+
+Sei que muitos que lerão este texto não tem um aprofundamento na linguagem R, então deixarei um breve relato. Nunca tive um curso formal de R, aprendi a maior parte de forma autodidata, lendo livros, artigos, assistindo tutoriais, conversando com outros programadores, etc. Por muito tempo usei as funções de carregamento de pacotes sem entender como realmente funcionam. Sempre usei o require() , mas nunca me atentei a diferença dele para o library(). Na verdade, a mudança é bem sutil, mas gera resultados amplos, dependendo da maneira que usá-los. A função require() retorna um warning (um aviso), porém o aplicativo pode ser rodado normalmente, falhando apenas quando o pacote exigido que causou o erro for solicitado em uma função. Além disso, o require() retorna um valor lógico FALSE ou TRUE. Quando usamos a função library() para carregar um pacote, em caso de falha, ele retornará um erro, parando o aplicativo na linha do código onde o erro foi apresentado. Assim uma maneira eficiente para carregar os pacotes no ambiente R seria com a função:
 
 ```  
 pkg <- require(tidyverse)
@@ -130,6 +133,8 @@ invisible(lapply(packages, library, character.only = TRUE))
 
 ```
 
+## Pacotes especificos
+
 Desde o primeiro código da publicação, até a função anterior, a forma de instalar e carregar tornou-se bem mais eficiente. Porém ainda não chegamos na melhor forma possível, pois também queremos a atualização dos pacotes se necessário. Alguns pacotes dizem fazer isto, não aprofundei em seus scripts, porém ao fazer alguns testes, não cheguei a um resultado satisfatório. Por vezes não carregaram, instalaram ou atualizaram os pacotes dos quais solicitei. Alguns pacotes e funções são:
 
 ```  
@@ -143,6 +148,10 @@ librarian::shelf()
 
 Deixarei alguns links ao final da publicação, com algumas fontes e o uso dos pacotes {pacman} e {librarian}.
 
+## Minhas soluções
+
+### Solução inicial
+
 Então após algumas frustrações, decidi colocar a mão na massa (nesse caso, no teclado xD ). Comecei a pensar em soluções. Como tudo na vida, não precisamos recriar a roda, então usei os códigos anteriores como ponta pé inicial. Adaptei-os para o meu problema. Criei uma função da seguinte maneira:
   
 ``` 
@@ -151,7 +160,7 @@ pkg <- c("tidyverse", "ggplot2", "readxl", "dplyr", "tidyr", "DT")
 m_load <- function(pkg) {
   ipkg <- c(pkg[!pkg %in% installed.packages()], pkg[pkg %in%
                                                        
-                                                       rownames(old.packages())])
+                rownames(old.packages())])
   
   install.packages(ipkg)
   
@@ -165,7 +174,11 @@ m_load(pkg)
 
 Uma breve explicação da função: Primeiramente ela irá verificar se os pacotes estão ausentes da lista de pacotes instalados. Depois verificará se estão presentes na lista de pacotes desatualizados. Caso esteja em alguma das duas listas, o pacote será adicionado ao vetor ipkg. Em seguida serão instalados todos os pacotes presentes no vetor. Por fim serão carregados pelo loop "lapply".
 
-Após criar a função, basta usar no script a função m_load( ) para carregar, instalar e atualizar uma lista de pacotes. Porém nem tudo são flores. Da maneira em que se encontra, a função aceita apenas um vetor do tipo character como parâmetro e só podem ser instalados pacotes do repositório CRAN. As duas desvantagens podem ser corrigidas. Para primeira usei a função exists() para verificar se o atributo passado é um objeto já existente. Caso o retorno seja FALSE, então a função verifica se é um atributo do tipo character. Se os dois testes derem falsos, então converte-se o nome do objeto para um texto com a função deparse(). Para resolver a segunda desvantagem, diferenciar os pacotes no CRAN dos pacotes do GitHub, usei como inspiração parte do código do pacote librarian. Assim o código final ficou o seguinte:
+Após criar a função, basta usar no script a função m_load( ) para carregar, instalar e atualizar uma lista de pacotes. Porém nem tudo são flores. Da maneira em que se encontra, a função aceita apenas um vetor do tipo character como parâmetro e só podem ser instalados pacotes do repositório CRAN.
+
+### Solução final
+
+As duas desvantagens foram corrigidas. Para primeira usei a função exists() para verificar se o atributo passado é um objeto já existente. Caso o retorno seja FALSE, então a função verifica se é um atributo do tipo character. Se os dois testes derem falsos, então converte-se o nome do objeto para um texto com a função deparse(). Para resolver a segunda desvantagem, diferenciar os pacotes no CRAN dos pacotes do GitHub, usei como inspiração parte do código do pacote librarian. Assim o código final ficou o seguinte:
  
 ```
 m_load <- function(pkg) {
@@ -215,6 +228,8 @@ m_load <- function(pkg) {
 }
 
 ```
+
+## Maneira mais eficiente
 
 Pronto, o código está finalizado. Ele ficou um pouco grande. Seria muito cansativo reescrevê-lo toda vez que fosse usá-lo. Assim criei um pequeno pacote que facilita seu uso. Para instalá-lo use:
   
@@ -278,6 +293,8 @@ m_load(gustavohom/gmourao)
 
 ```
 
+## Considerações
+
 Essa foi uma maneira simples que achei para carregar, instalar e atualizar todos os pacotes que preciso em um projeto. Isto facilitou o compartilhamento dos meus códigos, principalmente porque tive retornos ruins (falhas) dos pacotes que se propuseram a resolver essa questão.
 
 Se chegou até aqui, me diga: Gostou da solução? Alguma sugestão para melhorá-la?
@@ -293,4 +310,3 @@ https://towardsdatascience.com/fastest-way-to-install-load-libraries-in-r-f6fd56
 https://medium.com/@ashirwad1992/are-you-installing-and-loading-r-packages-the-efficient-way-d1782409b90e
 
 https://github.com/DesiQuintans/librarian/blob/master/R/exported_functions.R
-
