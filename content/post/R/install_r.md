@@ -7,7 +7,7 @@ menu:
   name: Códigos R
 identifier: r
 weight: 1
-hero: r.jpg
+hero: r.png
 ---
   
   Nesse artigo abordarei:
