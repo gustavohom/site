@@ -206,4 +206,5 @@ https://snif.florestal.gov.br/pt-br/florestas-plantadas
 Floresta plantada - iStockFloresta plantada - iStock
 
 https://www.gov.br/agricultura/pt-br/assuntos/noticias/mapa-desenvolve-programa-para-estimular-a-area-de-florestas-plantadas-no-territorio-nacional
+
 https://iba.org/datafiles/publicacoes/relatorios/relatorio-iba-2020.pdf
