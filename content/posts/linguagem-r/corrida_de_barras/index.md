@@ -18,6 +18,9 @@ menu:
 
 Corrida de Barras é uma forma divertida de apresentar resultados aos clientes ou em apresentações. Nele é possível ver como os dados se alteram ao longo de um ciclo. Usarei a Linguagem R para criação de gráfico.
 
+
+{{< img src="bar.gif" align="center" title="Florestas Plantadas no Brasil">}}
+
 ## Dados
 
 Os dados são referentes aos plantios comerciais de florestas nos estados brasileiros, entre os anos de 2006 e 2019.
