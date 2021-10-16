@@ -1,17 +1,17 @@
 ---
-  title: "Corrida de Barras de Florestas Plantadas por Estado "
+title: "Corrida de Barras de Florestas Plantadas por Estado "
 date: '2021-10-15'
 description: Criando corrida de barras com R
 output:
   html_document:
-  df_print: paged
+    df_print: paged
 hero: bar.gif
 menu:
   sidebar:
-  name: Corrida de Barras
-identifier: pradradonizando-estilos
-parent: linguagem-r
-weight: 40
+    name: Corrida de Barras
+    identifier: corrida-de-barras
+    parent: linguagem-r
+    weight: 40
 ---
   
 # Corrida de Barras
@@ -40,7 +40,7 @@ Ano|Cultura|Espécie|Estado|Área (ha)
 |31/12/2006|Eucalipto|Eucalipto|Goiás|98765
 |31/12/2006|Eucalipto|Eucalipto|Tocantins|13901
 
-Você pode baixar a planilha completa por este link.
+Você pode baixar a planilha completa [neste link](https://github.com/gustavohom/site/blob/source/content/posts/linguagem-r/corrida_de_barras/dados.csv).
 
 
 ## Código R
