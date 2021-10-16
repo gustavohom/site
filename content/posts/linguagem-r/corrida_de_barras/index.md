@@ -180,22 +180,28 @@ animate(anim, 200, fps = 20,  width = 2000, height = 1000,
         renderer = ffmpeg_renderer()) -> for_mp4anim_save("animation.mp4", animation = for_mp4 )
 
 ```
-
-Espero que tenha gostado.
-
-Até uma próxima.
+ 
+   
+Espero que tenha gostado. Que esse pequeno tutorial te sirva de inspiração. Até uma próxima.
+ 
+ 
+ 
 
 # Referências
 
-#### Onde me inspirei
+#### Projeto completo
+
+https://github.com/gustavohom/exemplos/tree/main/Corrida_de_barras
+
+#### Inspiração
 
 https://towardsdatascience.com/create-animated-bar-charts-using-r-31d09e5841da
 
-#### De onde veio os dados
+#### Dados
 
 https://snif.florestal.gov.br/pt-br/florestas-plantadas
 
-#### Imagem capa do artigo 
+#### Imagem de capa do artigo 
 
 Floresta plantada - iStockFloresta plantada - iStock
 
