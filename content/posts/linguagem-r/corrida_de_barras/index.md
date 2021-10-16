@@ -55,8 +55,6 @@ Foram usados os pacotes {<span style="color:orange">ggplot2</span>}, {<span styl
 
 Para instala-los e carrega-los, usei a funcção **`m_load`** do pacote {<span style="color:orange">gmourao</span>}. Esta função instala, atualiza e carrega todos os pacotes necessários automaticamente.
 
-</br>
-
 ```{r}
 
 # Instalando e carregando pacotes -----------------------------------------
@@ -71,8 +69,6 @@ gmourao::m_load(pkg)
 ## Pré-processamento de dados
 
 Primeiro inicie carregando os dados. Nesta parte do código: é criado uma coluna referente ao ano das informações; são retirados os valores **`Não informados`** e **`NA`**; são resumidas as áreas de florestas plantadas de eucalipto e pinus por **`Estado`** e **`Ano`**; são ranqueados os estados e apenas os dez primeiros colocados em cada ano permanecerão no gráfico.
-
-</br>
 
 ```{r}
 
@@ -111,8 +107,6 @@ dados %<>%
 ## Construindo plotagens estáticas
 
 Agora serão construidos todos as plotagens estáticas.
-
-</br>
 
 ```{r}
 
@@ -156,8 +150,6 @@ staticplot = ggplot(dados, aes(rank, group = Estado,
 
 Agora será criada a animação
 
-</br>
-
 ```{r}
 
 # Criando animação --------------------------------------------------------
@@ -185,7 +177,7 @@ animate(anim, 200, fps = 30,  width = 2000, height = 1000,
 ```
 </br>
 
-#### MP4
+#### MP4 
 
 ```{r}
 
