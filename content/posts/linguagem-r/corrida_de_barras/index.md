@@ -15,14 +15,14 @@ menu:
 ---
 
 
-Corrida de Barras é uma forma divertida de apresentar resultados aos clientes ou em apresentações. Nele é possível ver como os dados se alteram ao longo de um ciclo. Usarei a Linguagem R para criação de gráfico.
+Corrida de Barras é uma forma divertida de apresentar resultados aos clientes ou em uma apresentações. Nele é possível ver como os dados se alteram ao longo de um ciclo. Usarei a Linguagem R para demonstrar como criar este tipo de gráfico. Veja um exemplo abaixo referente a area de Florestas Plantadas no Brasil por Estado entre os anos de 2006 e 2019:
 
 {{< img src="bar.gif" align="center" title="Florestas Plantadas no Brasil">}}
 
 ## Dados
 
 Os dados são referentes aos plantios comerciais de florestas nos estados brasileiros, entre os anos de 2006 e 2019.
-Foram selecionados apenas os plantios de Pinus e Eucalipto. Os dados que contemplam os anos de 2006 a 2016  foram coletados pela Indústria Brasileira de Árvores (Ibá)  e fornecidos  no site do Sistema Nacional de Informações Florestais (SNIF). [Clique aqui para ir para a pagina do SNIF](https://snif.florestal.gov.br/pt-br/florestas-plantadas). Os valores dos anos de 2017 a 2019 foram obtidos no Relatório aual 2020 da Ibá. [Veja o relatório completo clicando aqui](https://iba.org/datafiles/publicacoes/relatorios/relatorio-iba-2020.pdf).
+Foram selecionados apenas os plantios de Pinus e Eucalipto. Os dados que contemplam os anos de 2006 a 2016  foram coletados pela Indústria Brasileira de Árvores (Ibá)  e fornecidos  pelo site do [Sistema Nacional de Informações Florestais (SNIF)](https://snif.florestal.gov.br/pt-br/florestas-plantadas). Os valores dos anos de 2017 a 2019 foram obtidos no [Relatório aual 2020 da Ibá](https://iba.org/datafiles/publicacoes/relatorios/relatorio-iba-2020.pdf).
 
 Vamos olhar as primeiras linhas da tabela:
 
@@ -46,13 +46,13 @@ Você pode baixar a planilha completa [neste link](https://github.com/gustavohom
 
 ## Código R
 
-O código R foi inspirado em um script criado por Raja (2019). Ele pode ser consultado [clicando aqui](https://towardsdatascience.com/create-animated-bar-charts-using-r-31d09e5841da).
+O código R foi inspirado em um script criado por [Raja (2019)](https://towardsdatascience.com/create-animated-bar-charts-using-r-31d09e5841da). O script criado para este artigo pode ser consultado [clicando neste link](https://github.com/gustavohom/exemplos/tree/main/Corrida_de_barras).
 
 ## Pacotes
 
-Foram usados os pacotes {ggplot2}, {gganimate}, {tidyverse}, {magrittr} e {lubridate}.
+Foram usados os pacotes {<span style="color:orange">ggplot2</span>}, {<span style="color:orange">gganimate</span>}, {<span style="color:orange">tidyverse</span>}, {<span style="color:orange">magrittr</span>} e {<span style="color:orange">lubridate</span>}.
 
-Para instala-los e carrega-los, usei a funcção m_load do pacote {gmourao}. Esta função instala, atualiza e carrega todos os pacotes necessários de maneira automatica.
+Para instala-los e carrega-los, usei a funcção `m_load` do pacote {<span style="color:orange">gmourao</span>}. Esta função instala, atualiza e carrega todos os pacotes necessários automaticamente.
 
 ```{r}
 
@@ -68,7 +68,7 @@ gmourao::m_load(pkg)
 ```
 ## Pré-processamento de dados
 
-Primeiro inicie carregando os dados. Nesta parte do código é criado uma coluna referente ao ano das informações, são retirados os valores não informados e NA, além de resumir a área de floresta plantada por estado e ano. Então os estados são ranqueados e apenas os dez primeiros colocados em cada ano permaneceram no gráfico.
+Primeiro inicie carregando os dados. Nesta parte do código é criado uma coluna referente ao ano das informações, são retirados os valores `Não informados` e `NA`, além de resumir a área de floresta plantada por `Estado` e `Ano`. Então os estado serão ranqueados e apenas os dez primeiros colocados em cada ano permanecerão no gráfico.
 
 ```{r}
 
@@ -145,7 +145,7 @@ staticplot = ggplot(dados, aes(rank, group = Estado,
 ```
 ## Animação
 
-Agora vavmos criar a animação
+Agora será criada a animação
 
 ```{r}
 
@@ -163,16 +163,16 @@ anim = staticplot + transition_states(Ano, transition_length = 4, state_length =
 
 ## Renderização
 
-Por fim vamos renderizar em GIF e MP4.
+Por fim será renderizada a animação em GIF e MP4.
 
-### GIF
+#### GIF
 
 ```{r}
 animate(anim, 200, fps = 30,  width = 2000, height = 1000,
         renderer = gifski_renderer("gganerwqim.gif"))
 ```
 
-### MP4
+#### MP4
 
 ```{r}
 
@@ -180,6 +180,10 @@ animate(anim, 200, fps = 20,  width = 2000, height = 1000,
         renderer = ffmpeg_renderer()) -> for_mp4anim_save("animation.mp4", animation = for_mp4 )
 
 ```
+
+Espero que tenha gostado.
+
+Até uma próxima.
 
 # Referências
 
