@@ -15,7 +15,7 @@ menu:
 ---
 
 
-Corrida de Barras é uma forma divertida de apresentar resultados aos clientes ou em uma apresentações. Nele é possível ver como os dados se alteram ao longo de um ciclo. Usarei a Linguagem R para demonstrar como criar este tipo de gráfico. Veja um exemplo abaixo referente a area de Florestas Plantadas no Brasil por Estado entre os anos de 2006 e 2019:
+Corrida de Barras é uma forma divertida de apresentar resultados aos clientes ou em uma apresentações. Nela é possível ver como os dados se alteram ao longo de um ciclo. Usarei a Linguagem R para demonstrar como criar este tipo de gráfico. Veja um exemplo abaixo referente a area de Florestas Plantadas no Brasil por Estado entre os anos de 2006 e 2019:
 
 {{< img src="bar.gif" align="center" title="Florestas Plantadas no Brasil">}}
 
@@ -68,7 +68,7 @@ gmourao::m_load(pkg)
 ```
 ## Pré-processamento de dados
 
-Primeiro inicie carregando os dados. Nesta parte do código é criado uma coluna referente ao ano das informações, são retirados os valores `Não informados` e `NA`, além de resumir a área de floresta plantada por `Estado` e `Ano`. Então os estado serão ranqueados e apenas os dez primeiros colocados em cada ano permanecerão no gráfico.
+Primeiro inicie carregando os dados. Nesta parte do código: é criado uma coluna referente ao ano das informações; são retirados os valores ***`Não informados`*** e `NA`; são resumidas as áreas de florestas plantadas de eucalipto e pinus por `Estado` e `Ano`; são ranqueados os estados e apenas os dez primeiros colocados em cada ano permanecerão no gráfico.
 
 ```{r}
 
