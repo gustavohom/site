@@ -1,11 +1,11 @@
 ---
-title: "Corrida de Barras de Florestas Plantadas por Estado "
+title: "Corrida de Barras de Florestas Plantadas"
 date: '2021-10-15'
 description: Criando corrida de barras com R
 output:
   html_document:
     df_print: paged
-hero: bar.gif
+hero: floresta.jpg
 menu:
   sidebar:
     name: Corrida de Barras
@@ -13,11 +13,9 @@ menu:
     parent: linguagem-r
     weight: 40
 ---
-  
-# Corrida de Barras
+
 
 Corrida de Barras é uma forma divertida de apresentar resultados aos clientes ou em apresentações. Nele é possível ver como os dados se alteram ao longo de um ciclo. Usarei a Linguagem R para criação de gráfico.
-
 
 {{< img src="bar.gif" align="center" title="Florestas Plantadas no Brasil">}}
 
@@ -185,8 +183,17 @@ animate(anim, 200, fps = 20,  width = 2000, height = 1000,
 
 # Referências
 
+#### Onde me inspirei
+
 https://towardsdatascience.com/create-animated-bar-charts-using-r-31d09e5841da
+
+#### De onde veio os dados
 
 https://snif.florestal.gov.br/pt-br/florestas-plantadas
 
+#### Imagem capa do artigo 
+
+Floresta plantada - iStockFloresta plantada - iStock
+
+https://www.gov.br/agricultura/pt-br/assuntos/noticias/mapa-desenvolve-programa-para-estimular-a-area-de-florestas-plantadas-no-territorio-nacional
 https://iba.org/datafiles/publicacoes/relatorios/relatorio-iba-2020.pdf
