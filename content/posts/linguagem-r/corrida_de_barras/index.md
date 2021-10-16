@@ -42,7 +42,6 @@ Ano|Cultura|Espécie|Estado|Área (ha)
 |31/12/2006|Eucalipto|Eucalipto|Tocantins|13901
 
 </br>
-</br>
 
 Você pode baixar a planilha completa [neste link](https://github.com/gustavohom/site/blob/source/content/posts/linguagem-r/corrida_de_barras/dados.csv).
 
@@ -58,7 +57,6 @@ Foram usados os pacotes {<span style="color:orange">ggplot2</span>}, {<span styl
 Para instala-los e carrega-los, usei a funcção **`m_load`** do pacote {<span style="color:orange">gmourao</span>}. Esta função instala, atualiza e carrega todos os pacotes necessários automaticamente.
 
 </br>
-</br>
 
 ```{r}
 
@@ -70,13 +68,11 @@ pkg <- c("ggplot2", "gganimate", "tidyverse", "magrittr", "lubridate")
 
 gmourao::m_load(pkg)
 
-
 ```
 ## Pré-processamento de dados
 
 Primeiro inicie carregando os dados. Nesta parte do código: é criado uma coluna referente ao ano das informações; são retirados os valores **`Não informados`** e **`NA`**; são resumidas as áreas de florestas plantadas de eucalipto e pinus por **`Estado`** e **`Ano`**; são ranqueados os estados e apenas os dez primeiros colocados em cada ano permanecerão no gráfico.
 
-</br>
 </br>
 
 ```{r}
@@ -112,14 +108,11 @@ dados %<>%
   
 ```
 </br>
-</br>
 ## Construindo plotagens estáticas
 
 Agora serão construidos todos as plotagens estáticas.
 
 </br>
-</br>
-
 ```{r}
 
 # Criando plot ------------------------------------------------------------
@@ -157,13 +150,11 @@ staticplot = ggplot(dados, aes(rank, group = Estado,
         )
 ```
 </br>
-</br>
 
 ## Animação
 
 Agora será criada a animação
 
-</br>
 </br>
 
 ```{r}
@@ -180,18 +171,14 @@ anim = staticplot + transition_states(Ano, transition_length = 4, state_length =
 
 ```
 </br>
-</br>
 
 ## Renderização
 
 Por fim será renderizada a animação em GIF e MP4.
 
 </br>
-</br>
 
 #### GIF
-
-</br>
 </br>
 
 ```{r}
@@ -199,11 +186,8 @@ animate(anim, 200, fps = 30,  width = 2000, height = 1000,
         renderer = gifski_renderer("gganerwqim.gif"))
 ```
 </br>
-</br>
 
 #### MP4
-
-</br>
 </br>
 
 ```{r}
@@ -213,8 +197,7 @@ animate(anim, 200, fps = 20,  width = 2000, height = 1000,
 
 ```
 </br>
-</br>
-</br>
+
 Espero que tenha gostado. Que esse pequeno tutorial te sirva de inspiração. Até uma próxima.
 
 # Referências
