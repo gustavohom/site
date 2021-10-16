@@ -52,7 +52,7 @@ O código R foi inspirado em um script criado por [Raja (2019)](https://towardsd
 
 Foram usados os pacotes {<span style="color:orange">ggplot2</span>}, {<span style="color:orange">gganimate</span>}, {<span style="color:orange">tidyverse</span>}, {<span style="color:orange">magrittr</span>} e {<span style="color:orange">lubridate</span>}.
 
-Para instala-los e carrega-los, usei a funcção `m_load` do pacote {<span style="color:orange">gmourao</span>}. Esta função instala, atualiza e carrega todos os pacotes necessários automaticamente.
+Para instala-los e carrega-los, usei a funcção **`m_load`** do pacote {<span style="color:orange">gmourao</span>}. Esta função instala, atualiza e carrega todos os pacotes necessários automaticamente.
 
 ```{r}
 
@@ -68,7 +68,7 @@ gmourao::m_load(pkg)
 ```
 ## Pré-processamento de dados
 
-Primeiro inicie carregando os dados. Nesta parte do código: é criado uma coluna referente ao ano das informações; são retirados os valores **`Não informados`** e *`NA`*; são resumidas as áreas de florestas plantadas de eucalipto e pinus por `Estado` e `Ano`; são ranqueados os estados e apenas os dez primeiros colocados em cada ano permanecerão no gráfico.
+Primeiro inicie carregando os dados. Nesta parte do código: é criado uma coluna referente ao ano das informações; são retirados os valores **`Não informados`** e **`NA`**; são resumidas as áreas de florestas plantadas de eucalipto e pinus por **`Estado`** e **`Ano`**; são ranqueados os estados e apenas os dez primeiros colocados em cada ano permanecerão no gráfico.
 
 ```{r}
 
