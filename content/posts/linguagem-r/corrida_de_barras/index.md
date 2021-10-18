@@ -14,7 +14,7 @@ menu:
     weight: 40
 ---
 
-Corrida de Barras é uma forma divertida de apresentar resultados aos clientes ou em uma apresentações. Nela é possível ver como os dados se alteram ao longo de um ciclo. Usarei a Linguagem R para demonstrar como criar este tipo de gráfico. Veja um exemplo abaixo referente a area de Florestas Plantadas no Brasil por Estado entre os anos de 2006 e 2019:
+Corrida de Barras é uma forma divertida de apresentar resultados aos clientes ou em uma apresentações. Nela é possível ver como os dados se alteram ao longo de um ciclo. Usarei a Linguagem R para demonstrar como criar este tipo de gráfico. Veja um exemplo abaixo referente a área de Florestas Plantadas no Brasil por Estado entre os anos de 2006 e 2019:
 
 {{< img src="bar.gif" align="center" title="Florestas Plantadas no Brasil">}}
 
@@ -203,10 +203,12 @@ https://towardsdatascience.com/create-animated-bar-charts-using-r-31d09e5841da
 
 https://snif.florestal.gov.br/pt-br/florestas-plantadas
 
+https://iba.org/datafiles/publicacoes/relatorios/relatorio-iba-2020.pdf
+
 #### Imagem de capa do artigo 
 
 Floresta plantada - iStockFloresta plantada - iStock
 
 https://www.gov.br/agricultura/pt-br/assuntos/noticias/mapa-desenvolve-programa-para-estimular-a-area-de-florestas-plantadas-no-territorio-nacional
 
-https://iba.org/datafiles/publicacoes/relatorios/relatorio-iba-2020.pdf
+
