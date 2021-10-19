@@ -14,14 +14,14 @@ menu:
     weight: 40
 ---
 
-Corrida de Barras é uma forma divertida de apresentar resultados aos clientes ou em uma apresentações. Nela é possível ver como os dados se alteram ao longo de um ciclo. Usarei a Linguagem R para demonstrar como criar este tipo de gráfico. Veja um exemplo abaixo referente a área de Florestas Plantadas no Brasil por Estado entre os anos de 2006 e 2019:
+Corrida de Barras é uma forma divertida de apresentar resultados aos clientes e em apresentações. Nela é possível ver como os dados se alteram ao longo de um ciclo. Usarei a Linguagem R para demonstrar como criar este tipo de gráfico. Veja um exemplo abaixo referente a área de Florestas Plantadas no Brasil por Estado entre os anos de 2006 e 2019:
 
 {{< img src="bar.gif" align="center" title="Florestas Plantadas no Brasil">}}
 
 ## Dados
 
 Os dados são referentes aos plantios comerciais de florestas nos estados brasileiros, entre os anos de 2006 e 2019.
-Foram selecionados apenas os plantios de Pinus e Eucalipto. Os dados que contemplam os anos de 2006 a 2016  foram coletados pela Indústria Brasileira de Árvores (Ibá)  e fornecidos  pelo site do [Sistema Nacional de Informações Florestais (SNIF)](https://snif.florestal.gov.br/pt-br/florestas-plantadas). Os valores dos anos de 2017 a 2019 foram obtidos no [Relatório aual 2020 da Ibá](https://iba.org/datafiles/publicacoes/relatorios/relatorio-iba-2020.pdf).
+Foram selecionados apenas os plantios de Pinus e Eucalipto. Os dados que contemplam os anos de 2006 a 2016  foram coletados pela Indústria Brasileira de Árvores (Ibá)  e fornecidos  pelo site do [Sistema Nacional de Informações Florestais (SNIF)](https://snif.florestal.gov.br/pt-br/florestas-plantadas). Os valores dos anos de 2017 a 2019 foram obtidos no [Relatório aual 2020 do Ibá](https://iba.org/datafiles/publicacoes/relatorios/relatorio-iba-2020.pdf).
 
 Vamos olhar as primeiras linhas da tabela:
 
@@ -106,7 +106,7 @@ dados %<>%
 
 ## Construindo plotagens estáticas
 
-Agora serão construidos todos as plotagens estáticas.
+Agora serão construidos todos as plotagens estáticas:
 
 ```{r}
 
@@ -148,7 +148,7 @@ staticplot = ggplot(dados, aes(rank, group = Estado,
 
 ## Animação
 
-Agora será criada a animação
+Esta parte criará a animação
 
 ```{r}
 
