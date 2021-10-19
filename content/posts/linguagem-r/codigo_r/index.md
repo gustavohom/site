@@ -245,7 +245,7 @@ Pronto, o código está finalizado. Ele ficou um pouco grande. Seria muito cansa
 remotes::install_github("gustavohom/gmourao")
 
 ```
-< br/>
+<br />
 Depois de instalado, sempre que quiser basta usar uma das opções:
   
 ```
