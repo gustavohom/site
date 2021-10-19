@@ -52,13 +52,13 @@ nome_alunas
 NOMEALUNAS
 
 ```
+<br />
  
- 
-Percebemos então que apesar de ser uma variavel contendo três nomes, a nomeclatura para ela pode variar de acordo com cada autor. A tentativa deste capitulo não é ter um padrão obrigatório quanto a escrita e quais nomes devem ser usados, mas um guia para auxiliar a escrita mais eficaz dos nomes.
+Percebemos então que apesar de ser uma variavel contendo três nomes, a nomeclatura para ela pode variar de acordo com cada autor. A tentativa deste capitulo não é ter um padrão obrigatório quanto a escrita e nomes a serem usados, mas um guia para auxiliar a escrita mais eficaz.
 
 ## Princiapais estilos
 
-Não me aprofundarei na história ou a motivação de cada um dos estilos que citarei a seguir. Alguns dos principais estilos de escrita na programação e seus respectivos exemplos:
+Não me aprofundarei na história ou a motivação de cada um dos estilos de escritas que citarei a seguir. Alguns dos principais estilos de escrita na programação e seus respectivos exemplos são:
  
 
 | Estilo | Exemplo |
@@ -76,28 +76,29 @@ Não me aprofundarei na história ou a motivação de cada um dos estilos que ci
 | Dot Case | nome.aluna |
 
  
-## Geral
+## Regras Gerais
+
+Alguns conceitos devem ser usados nos códigos, nos nomes dos arquivos salvos e nas pastas de trabalho. Elas facilitam o compatibilidade entre diferentes softwares e linguagens; evitam erros; melhoram a leitura e assimilação.
 
 Não deve-se usar:
 
-* Pontos
 * Caracteres especiais
 * Espaço
 * Simbolos
 * Acentos
 * Palavras fora de contexto
-* Não incluir conectores como `de`, `da`, `dos`, `e`, `a`, `em`, etc.
+* Conectores como: `de`, `da`, `dos`, `e`, `a` e `em`.
 
 Pode-se usar
 
 * Letras
 * Palavras
 * Numeros
-* Os sibolos **`-`**   e   **`_`**
+* Os sibolos **`-`** e **`_`** (em alguns casos o **`.`**)
 
 ## **Pastas**
 
-Um estilo de padronização de pastas para dois projetos que usam o mesmo banco de dados. A pasta input são dos dados corrigidos , filtrados ou separados do banco de dados original. Os arquivos output são as saidas finais para os arquivos. Estou tentando criar uma pasta chamada `processados`para os processos intermediarios, mas sem eficacia para saida final, como por exemplo: Na pasta dados tenho um raster. Em input tenho um recorte do raster especificando a área de interesse. Em `processados`tenho o filtro para retirada de outliers do raster. Em output os arquivos processados do raster. Em entrega os produtos de interesse finalizados. Essa organização permite com que os dados sejam consultados pelo caminho relativo `../../dados` . A pasta `src` contém scripts que iremos chamar com `source()`, como funções por exemplo.
+Um estilo de padronização de pastas para dois projetos que usam o mesmo banco de dados. A pasta input são dos dados corrigidos , filtrados ou separados do banco de dados original. Os arquivos output são as saidas finais para os arquivos. Estou tentando criar uma pasta chamada `processados`para os processos intermediarios. Como exemplo: Na pasta dados tenho um raster. Em input tenho um recorte do raster especificando a área de interesse. Em `processados`tenho o filtro para retirada de outliers do raster. Em output os arquivos processados do raster. Em entrega os produtos de interesse finalizados. Essa organização permite com que os dados sejam consultados pelo caminho relativo `../../dados` . A pasta `src` contém scripts que iremos chamar com `source()`.
 
 Os dados brutos devem ser apenas para leitura. 
  
@@ -144,7 +145,7 @@ PROJETOS COM DIFERENTES BANCOS DADOS
 ```
  
   
-As pastas podem ser escritas seguindo as regras gerais. Preferencialemente devem ser escritas em sneak\_case com letras minúsculas. Recomendo usar underline \( \_ \) para criação de contexto e traço \( - \) para sequenciamento, referencias geografica, data, individualizações ... Exemplo:
+As pastas podem ser escritas seguindo as regras gerais. Preferencialemente devem ser escritas em sneak\_case com letras minúsculas. Recomendo usar underline \( \_ \) para criação de contexto e traço \( - \) para sequenciamento, referências geográficas, datas e individualizações. Exemplo:
  
 
 * `projeto_carbono-01`
@@ -161,10 +162,10 @@ Sempre que possível, adicione uma breve descrição do projeto em um arquivo RE
 
 Os arquivos seguem a mesma terminologias que as pastas, porém com algumas modificações:
 
-* Os gráficos podem ter contexto com definido o tipo de grafico e dados usados
-  * `col_carro_consumo` : gráfico de coluna com eixos carro e consumo
-  * `dis_aluna_nota` : gráfico de disperção de com eixos aluna e nota
-  * `dis_mes_nota-Gabriely` : gráfico de dispersão de nota ao longo dos meses da aluna Grabriely
+* Os gráficos podem ter contexto definindo o tipo de grafico e dados usados
+  * `col_carro_consumo` : gráfico de coluna com eixos `carro` e `consumo`
+  * `dis_aluna_nota` : gráfico de disperção com `eixos`, `aluna` e `nota`
+  * `dis_mes_nota-Gabriely` : gráfico de dispersão de `nota` ao longo dos `meses` da aluna `Grabriely`
 * De preferência para palavras no singular
 * Prefixos especificam o tipo de arquivo e sufixos os processos
   * `dtm_solos_declivosos`
@@ -175,16 +176,16 @@ Os arquivos seguem a mesma terminologias que as pastas, porém com algumas modif
   * `2021-02-corte_pinus`
   * `2019-03-corte_pinus`
   * `2019-03-corte_teca`
-* É aconselhável o uso de sufixo para arquivos que seguem uma sequencia lógica
-  * `01_filtrar_dados`
-  * `02_calcular_media`
-  * `03_grafico_medias`
+* É aconselhável o uso de sufixo para arquivos que seguem uma sequência lógica
+  * `01_filtrar_dados.R`
+  * `02_calcular_media.R`
+  * `03_plotar_medias.R`
 
 ## Tabelas
 
-Essa parte achei interessante um artigo da **Emily Riederer.** Estou adotando o padrão definido por ela como referência para meus projetos. O link para o artigo original: [https://emilyriederer.netlify.app/post/column-name-contracts/](https://emilyriederer.netlify.app/post/column-name-contracts/)
+Essa parte achei interessante um artigo da [**Emily Riederer.**](https://emilyriederer.netlify.app/post/column-name-contracts/) Estou adotando o padrão definido por ela como referência para meus projetos. [Link para o artigo original](https://emilyriederer.netlify.app/post/column-name-contracts/)
 
-Abaxo segue um copiar e colar traduzido do blog dela
+Abaixo segue um <span style="color:green">copiar</span> e <span style="color:green">colar</span> traduzido do blog de [**Emily Riederer.**](https://emilyriederer.netlify.app/post/column-name-contracts/)
 
 > ### Vocabulário Controlado <a id="controlled-vocabulary"></a>
 >
@@ -268,7 +269,7 @@ Abaxo segue um copiar e colar traduzido do blog dela
  
  
 
-```text
+```
 head(data_trips)
 
 #>   ID_DRIVER ID_RIDER ID_TRIP    DT_ORIG    DT_DEST N_DRIVER_PASSENGERS
@@ -300,54 +301,55 @@ head(data_trips)
 #> 5         Elite       Frequent
 #> 6      Standard          Basic
 ```
- 
-  
 
 ## No R
 
 ### Algumas boas práticas
 
-* Começe o codigo sempre com o nome do autor, data de inicio do projeto, nome do projeto, uma pequena descrição do projeto.
-* Particione seu codigo usando `ctrl` + `shift` + `r` ou `#----` ou `#====`  exemplo:
+* Começe o codigo sempre com o nome do autor, data de inicio, nome e uma pequena descrição do projeto.
+* Particione seu codigo usando <span style="color:green> ctrl + shift + r </span> ou `#----` ou `#====`  exemplo:
 
-```r
+```
 # Parte 1 --------------------------
 
 a <- c("teste", "teste2")
 
 # Parte 2 --------------------------
 
-print(a)
+print
+
 ```
- 
+<br />
   
 * Comente os códigos e nomeie os chunks!!!
-* Use `library( )` e não `require( )`
-* Não use `atach( )` e tente evitar `setwd( )`
-* Não salve `workspace`
-* As variaveis devem ter preferencialmente o nome no singular. Quando obrigatoriamente escrito no plural, priorize o uso de coletivo. Exemplo: `funcionarios`deve ser trocado por `equipe`.
-* Carregue os pacotes no inicio do código
-* Em seguida, carregue os dados
-* Depois, carregue as funções \(source\)
-* Por fim, escreva os demais itens do código
+* Use `library( )` e não `require( )`.
+* Não use `atach( )` e tente evitar `setwd( )`.
+* Não salve `workspace`.
+* As variáveis devem ter preferencialmente o nome no singular. Quando obrigatoriamente escritas no plural, priorize o uso de coletivos. Exemplo: `funcionarios` deve ser trocado por `equipe`.
+* Carregue os pacotes no inicio do código.
+* Em seguida, carregue os dados.
+* Depois, carregue as funções \(source\).
+* Por fim, escreva os demais itens do código.
 * Prefira não usar o `return` implicito do R, escreva `return(x)`.
-* Atibua variaveis e funções com `<-` e não `=`
-* Variaveis escopo local com `_` no final, por exemplo `carro_`, isso evitará que funções procurem variaveis fora do escopo planejado.
-* Nomes das variaveis devem ser ou começar o contexto como **substantivos** e as ****funções como **verbos**.
+* Atibua variaveis e funções com `<-` e não `=`.
+* Variaveis escopo local com `_` no final ou no início, por exemplo `carro_`, isso evitará que funções procurem variaveis fora do escopo planejado.
+* Nomes das variáveis devem começar o contexto como **substantivos** e as funções como **verbos**.
 
 ### Estilo dentro do R
 
+Agumas boas práticas para nomeclatura de objetos nos códigos R:
+
 | Tipo | Estilo | Exemplo |
 | :--- | :--- | :--- |
-| Variaveis | snake\_case | nome\_alunas |
+| Variáveis | snake\_case | nome\_alunas |
 | Funções | snake\_case | calcular\_aprovacao |
 | Classes | snake + Pascal case | Projeto\_Casa |
 | Objetos criados por classes | snake + camel case | casa\_Construida |
-| Metodos | snake\_case | dimencionar\_casa |
+| Métodos | snake\_case | dimencionar\_casa |
 | Interface | lower ou  snake\_case | txt ou txt\_descricao |
  
  
-Para as variaveis podemos escrever um prefixo definindo o tipo de arquivo
+Para as variaveis, preferencialmente escreva prefixos definindo o tipo de arquivo
  
  
 | Abreviação | Tipo |
