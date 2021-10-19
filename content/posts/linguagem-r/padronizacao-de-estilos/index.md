@@ -334,6 +334,7 @@ print
 * Atibua variaveis e funções com `<-` e não `=`.
 * Variaveis escopo local com `_` no final ou no início, por exemplo `carro_`, isso evitará que funções procurem variaveis fora do escopo planejado.
 * Nomes das variáveis devem começar o contexto como **substantivos** e as funções como **verbos**.
+* Use `TAB, não `espaço`, para indentar o código.
 
 ### Estilo dentro do R
 
