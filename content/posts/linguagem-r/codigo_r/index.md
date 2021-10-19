@@ -6,7 +6,7 @@ output: pdf_document
 hero: r.png
 menu:
   sidebar:
-    name: Codigos R
+    name: Pacote {gmourao}
     identifier: r
     parent: linguagem-r
     weight: 40
@@ -20,7 +20,7 @@ Nesse artigo abordarei:
 ---
 ## R base
 
-Há algum tempo me perguntei: Qual a maneira mais eficiente de instalar, carregar e atualizar um pacote no ambiente R? Essa é uma pergunta extremamente pertinente quando vamos compartilhar nossos projetos. Quando feita de maneira errada ou insuficiente pode ocasionar alguns detalhes inconvenientes: (1) Falha no código devido ao carregamento errado ou falta dos pacotes necessários; (2) Número excessivo de linhas de código; (3) Difícil entendimento dos scripts; entre outros. Como exemplo:
+Há algum tempo me perguntei: qual a maneira mais eficiente de instalar, carregar e atualizar um pacote no ambiente R? Essa é uma pergunta extremamente pertinente, principalmente quando vamos compartilhar nossos projetos. Quando feita de maneira errada ou insuficiente pode ocasionar alguns detalhes inconvenientes: (1) Falha no código devido ao carregamento errado ou falta dos pacotes necessários; (2) Número excessivo de linhas de código; (3) Difícil entendimento dos scripts; entre outros. Como exemplo:
   
 ```
 
@@ -55,7 +55,7 @@ require(lubridate)
 
 ## Usando funções e loops
 
-Sei que muitos que lerão este texto não tem um aprofundamento na linguagem R, então deixarei um breve relato. Nunca tive um curso formal de R, aprendi a maior parte de forma autodidata, lendo livros, artigos, assistindo tutoriais, conversando com outros programadores, etc. Por muito tempo usei as funções de carregamento de pacotes sem entender como realmente funcionam. Sempre usei o require() , mas nunca me atentei a diferença dele para o library(). Na verdade, a mudança é bem sutil, mas gera resultados amplos, dependendo da maneira que usá-los. A função require() retorna um warning (um aviso), porém o aplicativo pode ser rodado normalmente, falhando apenas quando o pacote exigido que causou o erro for solicitado em uma função. Além disso, o require() retorna um valor lógico FALSE ou TRUE. Quando usamos a função library() para carregar um pacote, em caso de falha, ele retornará um erro, parando o aplicativo na linha do código onde o erro foi apresentado. Assim uma maneira eficiente para carregar os pacotes no ambiente R seria com a função:
+Sei que muitos que lerão este texto não tem um aprofundamento na linguagem R, então deixarei um breve relato. Nunca tive um curso formal de R, aprendi a maior parte de forma autodidata, lendo livros, artigos, assistindo tutoriais, conversando com outros programadores, etc. Por muito tempo usei as funções de carregamento de pacotes sem entender como realmente funcionam. Sempre usei o **`require()`** , mas nunca me atentei sobre sua diferença em relação ao **`library()`**. Na verdade a mudança é bem sutil, mas gera resultados amplos. A função **`require()`** retorna um <spam color="red">**warning**</spam> (um aviso), porém o aplicativo pode ser rodado normalmente, falhando apenas quando o pacote exigido (que causou o erro) for solicitado em uma função. O **`require()`** retorna um valor lógico <spam color="red">**FALSE**</spam> ou <spam color="blue">**TRUE**</spam>. Quando usamos a função **`library()`** para carregar um pacote, ele retornará um erro caso falhe, parando o aplicativo na linha do código onde o erro foi apresentado. Assim uma maneira eficiente para carregar os pacotes no ambiente R seria com a função:
 
 ```  
 pkg <- require(tidyverse)
