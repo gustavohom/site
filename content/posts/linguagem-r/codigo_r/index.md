@@ -77,6 +77,8 @@ if (pkg == FALSE) {
 library(tidyverse)
 
 ```
+<br />
+
 A vantagem desse método é que ele verifica e (se necessário) instala os pacotes. Como desvantagem o código é extenso e quando passamos os valores para a função **`require()`** ele deve ser escrito como um objeto, porém a função **`install.packages()`** tem como parâmetro um vetor de ***character***. Podemos corrigir isso acrescentando o parametro <span style="color:red">character.only</span> = <span style="color:blue">TRUE</span> na função **`require()`** e **`library()`**. Quando temos um grande número de pacotes, esse método torna-se poluído. Com minha pequena experiência, aprendi que em alguns momentos a sua implementação não funciona (não sei o motivo). Uma segunda maneira de instalar e carregar os pacotes é usando o *loop* **`for()`**
   
 Vamos usar como exemplo:
@@ -103,7 +105,9 @@ insPack <- function(packages) {
 insPack(packages)
 
 ```
-Essa função começa a facilitar nossa vida, mas ainda não é a melhor. Vamos então para uma maneira semelhante, porém que considero um pouco mais eficiente. Vamos verificar se os pacotes que queremos carregar estão na lista de pacotes já instalados no R e instalar os ausentes.
+<br />
+
+Essa função começa a facilitar nossa vida, mas ainda não é a melhor. Vamos então para método semelhante, porém um pouco mais eficiente. O código verificará se os pacotes que queremos carregar estão na lista de pacotes já instalados no R e instalará os pacotes ausentes.
 
 ```
 
@@ -127,8 +131,8 @@ if (any(is_installed == FALSE)) {
 lapply(package, library, character.only = TRUE)
 
 ```
-
-Ainda, podemos carregar os pacotes dentro da função invisible caso desejemos ocultar os avisos:
+<br />
+Podemos carregar os pacotes dentro da função invisible caso desejemos ocultar os avisos:
   
 ```  
 invisible(lapply(packages, library, character.only = TRUE))
@@ -139,7 +143,7 @@ invisible(lapply(packages, library, character.only = TRUE))
 
 Desde o primeiro código da publicação, até a função anterior, a forma de instalar e carregar tornou-se bem mais eficiente. Porém ainda não chegamos na melhor forma possível, pois também queremos a atualização dos pacotes se necessário. Alguns pacotes dizem fazer isto, não aprofundei em seus scripts, porém ao fazer alguns testes, não cheguei a um resultado satisfatório. Por vezes não carregaram, instalaram ou atualizaram os pacotes dos quais solicitei. Alguns pacotes e funções são:
 
-```  
+```{r}  
   
 pacman::p_load()
 
@@ -147,14 +151,14 @@ pacman::p_load()
 librarian::shelf()
 
 ```
-
-Deixarei alguns links ao final da publicação, com algumas fontes e o uso dos pacotes {pacman} e {librarian}.
+<br />
+Deixarei alguns links ao final da publicação, com algumas fontes e o uso dos pacotes {<span style="color:orange">pacman</span>} e {<span style="color:orange">librarian</span>}.
 
 ## Minhas soluções
 
 ### Solução inicial
 
-Então após algumas frustrações, decidi colocar a mão na massa (nesse caso, no teclado xD ). Comecei a pensar em soluções. Como tudo na vida, não precisamos recriar a roda, então usei os códigos anteriores como ponta pé inicial. Adaptei-os para o meu problema. Criei uma função da seguinte maneira:
+Após algumas frustrações, decidi colocar a mão na massa (nesse caso, no teclado :grin:). Comecei a pensar em soluções. Como tudo na vida, não precisamos recriar a roda, então usei os códigos anteriores como ponta pé inicial. Adaptei-os para o meu problema. Criei a seguinte função:
   
 ``` 
 pkg <- c("tidyverse", "ggplot2", "readxl", "dplyr", "tidyr", "DT")
@@ -173,14 +177,15 @@ m_load <- function(pkg) {
 m_load(pkg)
 
 ```
+<br />
 
-Uma breve explicação da função: Primeiramente ela irá verificar se os pacotes estão ausentes da lista de pacotes instalados. Depois verificará se estão presentes na lista de pacotes desatualizados. Caso esteja em alguma das duas listas, o pacote será adicionado ao vetor ipkg. Em seguida serão instalados todos os pacotes presentes no vetor. Por fim serão carregados pelo loop "lapply".
+Uma breve explicação da função: Primeiramente ela irá verificar se os pacotes estão ausentes da lista de pacotes instalados. Depois verificará se estão presentes na lista de pacotes desatualizados. Caso estejam em alguma das duas listas, os pacotes serão adicionados ao vetor ipkg. Em seguida serão instalados todos os pacotes presentes neste vetor. Por fim serão carregados pelo *loop* **`lapply()`**.
 
-Após criar a função, basta usar no script a função m_load( ) para carregar, instalar e atualizar uma lista de pacotes. Porém nem tudo são flores. Da maneira em que se encontra, a função aceita apenas um vetor do tipo character como parâmetro e só podem ser instalados pacotes do repositório CRAN.
+Basta usar a função **`m_load( )`** para carregar, instalar e atualizar uma lista de pacotes. Porém nem tudo são flores. Da forma em que se encontra, a função aceita apenas um vetor do tipo character como parâmetro e só podem ser instalados pacotes do repositório CRAN.
 
 ### Solução final
 
-As duas desvantagens foram corrigidas. Para primeira usei a função exists() para verificar se o atributo passado é um objeto já existente. Caso o retorno seja FALSE, então a função verifica se é um atributo do tipo character. Se os dois testes derem falsos, então converte-se o nome do objeto para um texto com a função deparse(). Para resolver a segunda desvantagem, diferenciar os pacotes no CRAN dos pacotes do GitHub, usei como inspiração parte do código do pacote librarian. Assim o código final ficou o seguinte:
+As duas desvantagens foram corrigidas. Para primeira usei a função **`exists()`** para verificar se o atributo passado é um objeto já existente. Caso o retorno seja **<span style="color:red">FALSE</span>**, a função verificará se é um atributo do tipo *character*. Se os dois testes derem **<span style="color:red">FALSE</span>**, então será convertido o nome do objeto para um texto com a função **`deparse()`**. Para solucionar a segunda desvantagem (diferenciar os pacotes no CRAN dos pacotes no GitHub) usei como inspiração parte do código do pacote {<span style="color:orange">librarian</span>}. O código final ficou:
  
 ```
 m_load <- function(pkg) {
@@ -230,17 +235,18 @@ m_load <- function(pkg) {
 }
 
 ```
+<br />
 
 ## Maneira mais eficiente
 
-Pronto, o código está finalizado. Ele ficou um pouco grande. Seria muito cansativo reescrevê-lo toda vez que fosse usá-lo. Assim criei um pequeno pacote que facilita seu uso. Para instalá-lo use:
+Pronto, o código está finalizado. Ele ficou um pouco grande. Seria muito cansativo reescrevê-lo toda vez que fossemos usá-lo. Assim criei um pequeno pacote que facilita seu uso. Para instalá-lo rode:
   
 ```  
 remotes::install_github("gustavohom/gmourao")
 
 ```
-
-Depois de instalado, sempre que quiser basta usar uma das seguintes formas:
+< br/>
+Depois de instalado, sempre que quiser basta usar uma das opções:
   
 ```
 
@@ -297,9 +303,7 @@ m_load(gustavohom/gmourao)
 
 ## Considerações
 
-Essa foi uma maneira simples que achei para carregar, instalar e atualizar todos os pacotes que preciso em um projeto. Isto facilitou o compartilhamento dos meus códigos, principalmente porque tive retornos ruins (falhas) dos pacotes que se propuseram a resolver essa questão.
-
-Se chegou até aqui, me diga: Gostou da solução? Alguma sugestão para melhorá-la?
+Esta foi uma maneira simples que achei para carregar, instalar e atualizar todos os pacotes que preciso em um projeto, facilitando o compartilhamento dos códigos. Se chegou até aqui, me diga: Gostou da solução? Alguma sugestão para melhorá-lo? (Me mande um email gustavo-mourao@hotmail.com)
   
 ## Algumas referências:
   
